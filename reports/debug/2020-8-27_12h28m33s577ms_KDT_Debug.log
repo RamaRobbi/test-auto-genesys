@@ -1,0 +1,72 @@
+2020-08-27 12:28:48,287  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-27 12:28:48,320  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-27 12:28:49,025  INFO - Changing log level
+2020-08-27 12:28:49,025  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:28:49,026 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-08-27 12:28:49,063 DEBUG - Creating test case Verify Creation of New Account
+2020-08-27 12:28:49,107 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-27 12:28:49,111 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:28:49,124 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-27 12:28:49,124 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:28:49,125 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-27 12:28:49,125 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:28:49,127 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-27 12:28:49,127 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:28:49,129 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-27 12:28:49,129 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:28:49,132 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-27 12:28:49,132 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:28:49,226  INFO - Checking Verify Creation of New Account's dependencies.
+2020-08-27 12:28:49,227  INFO - Dependencies OK, running test.
+2020-08-27 12:28:49,228  INFO - Changing log level
+2020-08-27 12:28:49,228  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:28:49,229  INFO - Changing log level
+2020-08-27 12:28:49,229  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:28:49,314  INFO - Loading test data for Verify Creation of New Account
+2020-08-27 12:28:49,361  INFO - Changing log level
+2020-08-27 12:28:49,361  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:28:49,361  INFO - Verify Creation of New Account run #1
+2020-08-27 12:28:49,362 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 12:28:49,363  INFO - Initializing keyword LoginToApplication
+2020-08-27 12:28:49,363  INFO - Executing keyword LoginToApplication
+2020-08-27 12:28:49,380 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-27 12:28:49,382 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-27 12:28:49,436 DEBUG - Args: {Browser=Chrome}
+2020-08-27 12:28:49,437  INFO - Initializing keyword Launch
+2020-08-27 12:28:49,437  INFO - Executing keyword Launch
+2020-08-27 12:29:07,089  INFO - Cleaning up keyword Launch
+2020-08-27 12:29:07,089  INFO - Keyword Launch complete.
+2020-08-27 12:29:27,977  INFO - Cleaning up keyword LoginToApplication
+2020-08-27 12:29:27,977  INFO - Keyword LoginToApplication complete.
+2020-08-27 12:29:28,613 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 12:29:29,437 DEBUG - <a href="screenshots/shot_2020-8-27_12h29m28s614ms.jpg">Screen Shot</a>
+2020-08-27 12:29:29,438 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-08-27 12:29:29,439  INFO - Initializing keyword SelectAccountRecordType
+2020-08-27 12:29:29,439  INFO - Executing keyword SelectAccountRecordType
+2020-08-27 12:29:35,029  INFO - Cleaning up keyword SelectAccountRecordType
+2020-08-27 12:29:35,029  INFO - Keyword SelectAccountRecordType complete.
+2020-08-27 12:29:35,567 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-08-27 12:29:35,890 DEBUG - <a href="screenshots/shot_2020-8-27_12h29m35s570ms.jpg">Screen Shot</a>
+2020-08-27 12:29:35,891 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 12:29:35,891  INFO - Initializing keyword AccountSearchByName
+2020-08-27 12:29:35,891  INFO - Executing keyword AccountSearchByName
+2020-08-27 12:29:40,540  INFO - Cleaning up keyword AccountSearchByName
+2020-08-27 12:29:40,540  INFO - Keyword AccountSearchByName complete.
+2020-08-27 12:29:40,966 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 12:29:41,306 DEBUG - <a href="screenshots/shot_2020-8-27_12h29m40s967ms.jpg">Screen Shot</a>
+2020-08-27 12:29:41,307 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active |01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 12:29:41,307  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-08-27 12:29:41,307  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-08-27 12:30:06,105  WARN - Keyword EnterAccountMandatoryDetails execution fail: Element is not present in the combobox with text having xpath - <b>//label[text()='Status']/../following-sibling::td[1]//select</b>
+2020-08-27 12:30:06,147  WARN - Cannot locate element with text: Active 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: KDTDriver
+2020-08-27 12:30:06,190  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-08-27 12:30:06,191  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-08-27 12:30:06,851 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active |01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 12:30:07,207 DEBUG - <a href="screenshots/shot_2020-8-27_12h30m6s852ms.jpg">Screen Shot</a>
+2020-08-27 12:30:07,208 ERROR - Verify Creation of New Account run #1 failed.
+2020-08-27 12:30:07,231  INFO - Verify Creation of New Account completed.
+2020-08-27 12:30:11,228  INFO - Test Failed

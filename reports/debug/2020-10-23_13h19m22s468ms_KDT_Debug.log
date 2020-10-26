@@ -1,0 +1,56 @@
+2020-10-23 13:19:29,070  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 13:19:29,074  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 13:19:29,270  INFO - Changing log level
+2020-10-23 13:19:29,270  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 13:19:29,271 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 13:19:29,273 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 13:19:29,285 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 13:19:29,290 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 13:19:29,298 DEBUG - Loading keyword 'SearchAndAddProducts' in app 'Classic'
+2020-10-23 13:19:29,299 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 13:19:29,299 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-23 13:19:29,300 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 13:19:29,301 DEBUG - Loading keyword 'EnterValuesToTheProductsForRamp' in app 'Classic'
+2020-10-23 13:19:29,301 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 13:19:29,310  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 13:19:29,310  INFO - Dependencies OK, running test.
+2020-10-23 13:19:29,311  INFO - Changing log level
+2020-10-23 13:19:29,312  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 13:19:29,312  INFO - Changing log level
+2020-10-23 13:19:29,312  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 13:19:29,338  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 13:19:29,357  INFO - Changing log level
+2020-10-23 13:19:29,358  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 13:19:29,358  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 13:19:29,358 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 13:19:29,358  INFO - Initializing keyword LoginToApplication
+2020-10-23 13:19:29,359  INFO - Executing keyword LoginToApplication
+2020-10-23 13:19:29,361 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 13:19:29,361 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 13:19:29,368 DEBUG - Args: {Browser=Chrome}
+2020-10-23 13:19:29,368  INFO - Initializing keyword Launch
+2020-10-23 13:19:29,369  INFO - Executing keyword Launch
+2020-10-23 13:19:35,939  INFO - Cleaning up keyword Launch
+2020-10-23 13:19:35,939  INFO - Keyword Launch complete.
+2020-10-23 13:19:52,004  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 13:19:52,004  INFO - Keyword LoginToApplication complete.
+2020-10-23 13:19:52,339 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 13:19:52,696 DEBUG - <a href="screenshots/shot_2020-10-23_13h19m52s340ms.jpg">Screen Shot</a>
+2020-10-23 13:19:52,697 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00}
+2020-10-23 13:19:52,697  INFO - Initializing keyword SearchAndAddProducts
+2020-10-23 13:19:52,697  INFO - Executing keyword SearchAndAddProducts
+2020-10-23 13:20:37,734  WARN - Keyword SearchAndAddProducts execution fail: Not able to click on an element having xpath - <b>//sb-search-bar[@id='headersearch']//paper-button[@id='search']</b>
+2020-10-23 13:20:37,735  WARN - element click intercepted: Element <paper-button id="search" class="sbPrimaryAction sb-icon-search style-scope sb-search-bar x-scope paper-button-0" noink="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="0">...</paper-button> is not clickable at point (841, 193). Other element would receive the click: <div id="mask" class="sbLoadingMask fixed style-scope sf-loading-spinner">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir16368_2004930478}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:53141}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: f0c15e82410ef4f9155d4503ae4e75e6
+2020-10-23 13:20:37,735  INFO - Cleaning up keyword SearchAndAddProducts
+2020-10-23 13:20:37,736  INFO - Keyword SearchAndAddProducts complete.
+2020-10-23 13:20:38,371 DEBUG - Arguments: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00}
+2020-10-23 13:20:38,693 DEBUG - <a href="screenshots/shot_2020-10-23_13h20m38s371ms.jpg">Screen Shot</a>
+2020-10-23 13:20:38,694 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-10-23 13:20:38,700  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-23 13:20:40,050  INFO - Test Failed

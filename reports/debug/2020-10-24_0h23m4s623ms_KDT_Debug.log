@@ -1,0 +1,52 @@
+2020-10-24 00:23:09,276  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 00:23:09,281  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 00:23:09,582  INFO - Changing log level
+2020-10-24 00:23:09,582  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:23:09,583 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-24 00:23:09,585 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 00:23:09,601 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 00:23:09,637 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 00:23:09,649 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-24 00:23:09,649 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 00:23:09,658  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-24 00:23:09,658  INFO - Dependencies OK, running test.
+2020-10-24 00:23:09,658  INFO - Changing log level
+2020-10-24 00:23:09,658  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:23:09,659  INFO - Changing log level
+2020-10-24 00:23:09,659  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:23:09,694  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 00:23:09,715  INFO - Changing log level
+2020-10-24 00:23:09,716  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:23:09,716  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-24 00:23:09,716 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 00:23:09,716  INFO - Initializing keyword LoginToApplication
+2020-10-24 00:23:09,717  INFO - Executing keyword LoginToApplication
+2020-10-24 00:23:09,719 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 00:23:09,720 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 00:23:09,727 DEBUG - Args: {Browser=Chrome}
+2020-10-24 00:23:09,727  INFO - Initializing keyword Launch
+2020-10-24 00:23:09,728  INFO - Executing keyword Launch
+2020-10-24 00:23:16,707  INFO - Cleaning up keyword Launch
+2020-10-24 00:23:16,708  INFO - Keyword Launch complete.
+2020-10-24 00:23:33,156  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 00:23:33,156  INFO - Keyword LoginToApplication complete.
+2020-10-24 00:23:33,511 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 00:23:34,694 DEBUG - <a href="screenshots/shot_2020-10-24_0h23m33s512ms.jpg">Screen Shot</a>
+2020-10-24 00:23:34,694 DEBUG - Args: {WrapperSubProducts=PureCloud 2 User|PureCloud Communicate User|PureCloud Collaborate User|PureCloud Communicate Stand-alone Phone|PureCloud for Wallboard Device Charge, HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30|100, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 00:23:34,695  INFO - Initializing keyword ConfigureProducts
+2020-10-24 00:23:34,695  INFO - Executing keyword ConfigureProducts
+2020-10-24 00:24:40,606  WARN - Keyword ConfigureProducts execution fail: Not able to click on an element having xpath - <b>(//sb-table-row[@id='row']//child::paper-checkbox[@aria-disabled='false']//div[@id='checkbox'])[1]</b>
+2020-10-24 00:24:40,649  WARN - element click intercepted: Element <div id="checkbox" class="style-scope paper-checkbox">...</div> is not clickable at point (260, 343). Other element would receive the click: <div id="checkboxContainer" class="style-scope paper-checkbox">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir13836_2037452360}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50436}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 721c68b308440163f413665eb50ac757
+2020-10-24 00:24:40,650  INFO - Cleaning up keyword ConfigureProducts
+2020-10-24 00:24:40,650  INFO - Keyword ConfigureProducts complete.
+2020-10-24 00:24:41,272 DEBUG - Arguments: {WrapperSubProducts=PureCloud 2 User|PureCloud Communicate User|PureCloud Collaborate User|PureCloud Communicate Stand-alone Phone|PureCloud for Wallboard Device Charge, HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30|100, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 00:24:41,589 DEBUG - <a href="screenshots/shot_2020-10-24_0h24m41s273ms.jpg">Screen Shot</a>
+2020-10-24 00:24:41,590 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-10-24 00:24:41,603  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-24 00:24:43,585  INFO - Test Failed

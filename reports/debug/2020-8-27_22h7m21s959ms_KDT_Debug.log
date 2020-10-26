@@ -1,0 +1,79 @@
+2020-08-27 22:07:37,559  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-27 22:07:37,596  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-27 22:07:38,181  INFO - Changing log level
+2020-08-27 22:07:38,181  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 22:07:38,181 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-08-27 22:07:38,207 DEBUG - Creating test case Verify Creation of New Account
+2020-08-27 22:07:38,230 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-27 22:07:38,234 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 22:07:38,282 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-27 22:07:38,283 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 22:07:38,284 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-27 22:07:38,284 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 22:07:38,285 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-27 22:07:38,285 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 22:07:38,286 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-27 22:07:38,286 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 22:07:38,287 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-27 22:07:38,288 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 22:07:38,303  INFO - Checking Verify Creation of New Account's dependencies.
+2020-08-27 22:07:38,303  INFO - Dependencies OK, running test.
+2020-08-27 22:07:38,303  INFO - Changing log level
+2020-08-27 22:07:38,303  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 22:07:38,303  INFO - Changing log level
+2020-08-27 22:07:38,303  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 22:07:38,331  INFO - Loading test data for Verify Creation of New Account
+2020-08-27 22:07:38,345  INFO - Changing log level
+2020-08-27 22:07:38,345  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 22:07:38,345  INFO - Verify Creation of New Account run #1
+2020-08-27 22:07:38,346 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 22:07:38,346  INFO - Initializing keyword LoginToApplication
+2020-08-27 22:07:38,346  INFO - Executing keyword LoginToApplication
+2020-08-27 22:07:38,347 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-27 22:07:38,348 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-27 22:07:38,411 DEBUG - Args: {Browser=Chrome}
+2020-08-27 22:07:38,411  INFO - Initializing keyword Launch
+2020-08-27 22:07:38,411  INFO - Executing keyword Launch
+2020-08-27 22:07:52,646  INFO - Cleaning up keyword Launch
+2020-08-27 22:07:52,646  INFO - Keyword Launch complete.
+2020-08-27 22:08:13,707  INFO - Cleaning up keyword LoginToApplication
+2020-08-27 22:08:13,707  INFO - Keyword LoginToApplication complete.
+2020-08-27 22:08:14,276 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 22:08:15,907 DEBUG - <a href="screenshots/shot_2020-8-27_22h8m14s276ms.jpg">Screen Shot</a>
+2020-08-27 22:08:15,908 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-08-27 22:08:15,908  INFO - Initializing keyword SelectAccountRecordType
+2020-08-27 22:08:15,908  INFO - Executing keyword SelectAccountRecordType
+2020-08-27 22:08:20,897  INFO - Cleaning up keyword SelectAccountRecordType
+2020-08-27 22:08:20,897  INFO - Keyword SelectAccountRecordType complete.
+2020-08-27 22:08:21,184 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-08-27 22:08:21,490 DEBUG - <a href="screenshots/shot_2020-8-27_22h8m21s185ms.jpg">Screen Shot</a>
+2020-08-27 22:08:21,491 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 22:08:21,491  INFO - Initializing keyword AccountSearchByName
+2020-08-27 22:08:21,491  INFO - Executing keyword AccountSearchByName
+2020-08-27 22:08:27,785  INFO - Cleaning up keyword AccountSearchByName
+2020-08-27 22:08:27,786  INFO - Keyword AccountSearchByName complete.
+2020-08-27 22:08:28,132 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 22:08:28,544 DEBUG - <a href="screenshots/shot_2020-8-27_22h8m28s133ms.jpg">Screen Shot</a>
+2020-08-27 22:08:28,544 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 22:08:28,545  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-08-27 22:08:28,545  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-08-27 22:09:35,516  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-08-27 22:09:35,516  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-08-27 22:09:36,021 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 22:09:36,305 DEBUG - <a href="screenshots/shot_2020-8-27_22h9m36s22ms.jpg">Screen Shot</a>
+2020-08-27 22:09:36,305 DEBUG - Args: {}
+2020-08-27 22:09:36,306  INFO - Initializing keyword SaveAccountDetails
+2020-08-27 22:09:36,306  INFO - Executing keyword SaveAccountDetails
+2020-08-27 22:09:52,992  INFO - Cleaning up keyword SaveAccountDetails
+2020-08-27 22:09:52,993  INFO - Keyword SaveAccountDetails complete.
+2020-08-27 22:09:53,490 DEBUG - Arguments: {}
+2020-08-27 22:09:54,159 DEBUG - <a href="screenshots/shot_2020-8-27_22h9m53s491ms.jpg">Screen Shot</a>
+2020-08-27 22:09:54,160 DEBUG - Args: {}
+2020-08-27 22:09:54,160  INFO - Initializing keyword LogoutOfApplication
+2020-08-27 22:09:54,160  INFO - Executing keyword LogoutOfApplication
+2020-08-27 22:10:11,196  INFO - Cleaning up keyword LogoutOfApplication
+2020-08-27 22:10:11,196  INFO - Keyword LogoutOfApplication complete.
+2020-08-27 22:10:11,639 DEBUG - Arguments: {}
+2020-08-27 22:10:11,910 DEBUG - <a href="screenshots/shot_2020-8-27_22h10m11s639ms.jpg">Screen Shot</a>
+2020-08-27 22:10:11,967  INFO - Verify Creation of New Account completed.
+2020-08-27 22:10:15,355  INFO - Test Passed

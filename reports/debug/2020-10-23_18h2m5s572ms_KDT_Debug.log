@@ -1,0 +1,52 @@
+2020-10-23 18:02:10,193  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 18:02:10,200  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 18:02:10,437  INFO - Changing log level
+2020-10-23 18:02:10,438  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 18:02:10,438 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 18:02:10,442 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 18:02:10,456 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 18:02:10,462 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 18:02:10,471 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-23 18:02:10,471 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 18:02:10,637  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 18:02:10,638  INFO - Dependencies OK, running test.
+2020-10-23 18:02:10,638  INFO - Changing log level
+2020-10-23 18:02:10,639  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 18:02:10,639  INFO - Changing log level
+2020-10-23 18:02:10,640  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 18:02:10,718  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 18:02:10,771  INFO - Changing log level
+2020-10-23 18:02:10,771  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 18:02:10,772  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 18:02:10,772 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 18:02:10,773  INFO - Initializing keyword LoginToApplication
+2020-10-23 18:02:10,774  INFO - Executing keyword LoginToApplication
+2020-10-23 18:02:10,777 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 18:02:10,778 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 18:02:10,784 DEBUG - Args: {Browser=Chrome}
+2020-10-23 18:02:10,784  INFO - Initializing keyword Launch
+2020-10-23 18:02:10,784  INFO - Executing keyword Launch
+2020-10-23 18:02:18,209  INFO - Cleaning up keyword Launch
+2020-10-23 18:02:18,210  INFO - Keyword Launch complete.
+2020-10-23 18:02:34,774  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 18:02:34,775  INFO - Keyword LoginToApplication complete.
+2020-10-23 18:02:35,262 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 18:02:35,686 DEBUG - <a href="screenshots/shot_2020-10-23_18h2m35s263ms.jpg">Screen Shot</a>
+2020-10-23 18:02:35,686 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-23 18:02:35,686  INFO - Initializing keyword ConfigureProducts
+2020-10-23 18:02:35,687  INFO - Executing keyword ConfigureProducts
+2020-10-23 18:03:14,077  WARN - Keyword ConfigureProducts execution fail: Not able to click on an element having xpath - <b>(//paper-checkbox[@aria-disabled='false']/div[@id='checkboxContainer']/div[@id='checkbox'])[1]</b>
+2020-10-23 18:03:14,080  WARN - element not interactable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir15400_831541377}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:58492}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 539b9fe02fadb69d4d3e5026369db238
+2020-10-23 18:03:14,080  INFO - Cleaning up keyword ConfigureProducts
+2020-10-23 18:03:14,081  INFO - Keyword ConfigureProducts complete.
+2020-10-23 18:03:14,796 DEBUG - Arguments: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-23 18:03:15,170 DEBUG - <a href="screenshots/shot_2020-10-23_18h3m14s797ms.jpg">Screen Shot</a>
+2020-10-23 18:03:15,172 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-10-23 18:03:15,190  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-23 18:03:16,742  INFO - Test Failed

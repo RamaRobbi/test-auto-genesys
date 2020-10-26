@@ -1,0 +1,45 @@
+2020-10-24 23:13:57,874  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 23:13:57,878  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 23:13:58,366  INFO - Changing log level
+2020-10-24 23:13:58,367  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:13:58,367 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-24 23:13:58,390 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:13:58,462 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 23:13:58,516 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:13:58,641 DEBUG - Loading keyword 'EnterQuoteMandatoryDetailsForRAMP' in app 'Classic'
+2020-10-24 23:13:58,641 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:13:58,668 DEBUG - Loading keyword 'SearchAndAddProducts' in app 'Classic'
+2020-10-24 23:13:58,668 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:13:58,712 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-24 23:13:58,713 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:13:58,737 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-24 23:13:58,738 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:13:58,760 DEBUG - Loading keyword 'EnterValuesToTheProductsForRamp' in app 'Classic'
+2020-10-24 23:13:58,761 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:13:58,800  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-24 23:13:58,801  INFO - Dependencies OK, running test.
+2020-10-24 23:13:58,801  INFO - Changing log level
+2020-10-24 23:13:58,801  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:13:58,801  INFO - Changing log level
+2020-10-24 23:13:58,801  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:13:59,121  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:13:59,153  INFO - Changing log level
+2020-10-24 23:13:59,153  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:13:59,154  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-24 23:13:59,154 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:13:59,154  INFO - Initializing keyword LoginToApplication
+2020-10-24 23:13:59,155  INFO - Executing keyword LoginToApplication
+2020-10-24 23:13:59,156 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 23:13:59,157 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 23:13:59,226 DEBUG - Args: {Browser=Chrome}
+2020-10-24 23:13:59,227  INFO - Initializing keyword Launch
+2020-10-24 23:13:59,227  INFO - Executing keyword Launch
+2020-10-24 23:14:06,447  INFO - Cleaning up keyword Launch
+2020-10-24 23:14:06,447  INFO - Keyword Launch complete.
+2020-10-24 23:14:24,355  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 23:14:24,356  INFO - Keyword LoginToApplication complete.
+2020-10-24 23:14:24,891 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:14:26,285 DEBUG - <a href="screenshots/shot_2020-10-24_23h14m24s892ms.jpg">Screen Shot</a>
+2020-10-24 23:14:26,285 DEBUG - Args: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:14:26,285  INFO - Initializing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:14:26,286  INFO - Executing keyword EnterQuoteMandatoryDetailsForRAMP

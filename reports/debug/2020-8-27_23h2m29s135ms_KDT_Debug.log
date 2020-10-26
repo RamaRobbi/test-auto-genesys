@@ -1,0 +1,43 @@
+2020-08-27 23:02:35,514  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-27 23:02:35,525  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-27 23:02:35,898  INFO - Changing log level
+2020-08-27 23:02:35,898  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 23:02:35,898 DEBUG - Loading test case 'Verify Creation of New Contact'
+2020-08-27 23:02:35,900 DEBUG - Creating test case Verify Creation of New Contact
+2020-08-27 23:02:35,918 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-27 23:02:35,923 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 23:02:35,939 DEBUG - Loading keyword 'SelectContactRecordType' in app 'Classic'
+2020-08-27 23:02:35,939 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 23:02:35,944 DEBUG - Loading keyword 'EnterContactMandatoryDetails' in app 'Classic'
+2020-08-27 23:02:35,944 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 23:02:35,947 DEBUG - Loading keyword 'SaveContactDetails' in app 'Classic'
+2020-08-27 23:02:35,948 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 23:02:35,950 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-27 23:02:35,950 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 23:02:35,997  INFO - Checking Verify Creation of New Contact's dependencies.
+2020-08-27 23:02:35,997  INFO - Dependencies OK, running test.
+2020-08-27 23:02:35,997  INFO - Changing log level
+2020-08-27 23:02:35,997  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 23:02:35,997  INFO - Changing log level
+2020-08-27 23:02:35,997  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 23:02:36,021  INFO - Loading test data for Verify Creation of New Contact
+2020-08-27 23:02:36,034  INFO - Changing log level
+2020-08-27 23:02:36,034  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 23:02:36,035  INFO - Verify Creation of New Contact run #1
+2020-08-27 23:02:36,035 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 23:02:36,035  INFO - Initializing keyword LoginToApplication
+2020-08-27 23:02:36,035  INFO - Executing keyword LoginToApplication
+2020-08-27 23:02:36,037 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-27 23:02:36,038 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-27 23:02:36,043 DEBUG - Args: {Browser=Chrome}
+2020-08-27 23:02:36,043  INFO - Initializing keyword Launch
+2020-08-27 23:02:36,044  INFO - Executing keyword Launch
+2020-08-27 23:02:42,951  INFO - Cleaning up keyword Launch
+2020-08-27 23:02:42,952  INFO - Keyword Launch complete.
+2020-08-27 23:03:01,199  INFO - Cleaning up keyword LoginToApplication
+2020-08-27 23:03:01,199  INFO - Keyword LoginToApplication complete.
+2020-08-27 23:03:01,664 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 23:03:02,049 DEBUG - <a href="screenshots/shot_2020-8-27_23h3m1s665ms.jpg">Screen Shot</a>
+2020-08-27 23:03:02,050 DEBUG - Args: {RecordType=Consultant Record Type}
+2020-08-27 23:03:02,050  INFO - Initializing keyword SelectContactRecordType
+2020-08-27 23:03:02,051  INFO - Executing keyword SelectContactRecordType

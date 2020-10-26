@@ -1,0 +1,79 @@
+2020-10-23 00:10:37,465  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 00:10:37,475  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_RAMP_Monthly.xls
+2020-10-23 00:10:37,690  INFO - Changing log level
+2020-10-23 00:10:37,691  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 00:10:37,691 DEBUG - Loading test case 'Verify Creation of New Contact'
+2020-10-23 00:10:37,693 DEBUG - Creating test case Verify Creation of New Contact
+2020-10-23 00:10:37,713 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 00:10:37,717 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,728 DEBUG - Loading keyword 'CreateContactFromExistingAccount' in app 'Classic'
+2020-10-23 00:10:37,729 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,730 DEBUG - Loading keyword 'EnterContactMandatoryDetailsForExistingAccount' in app 'Classic'
+2020-10-23 00:10:37,730 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,731 DEBUG - Loading keyword 'SaveContactDetails' in app 'Classic'
+2020-10-23 00:10:37,731 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,732 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-10-23 00:10:37,733 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,736  INFO - Changing log level
+2020-10-23 00:10:37,736  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 00:10:37,736 DEBUG - Loading test case 'Verify the User is able to Create a New Opportunity'
+2020-10-23 00:10:37,737 DEBUG - Creating test case Verify the User is able to Create a New Opportunity
+2020-10-23 00:10:37,755 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 00:10:37,756 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,756 DEBUG - Loading keyword 'SelectOpportunitiesRecordType' in app 'Classic'
+2020-10-23 00:10:37,756 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,757 DEBUG - Loading keyword 'EnterOpportunitiesMandatoryDetails' in app 'Classic'
+2020-10-23 00:10:37,758 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,759 DEBUG - Loading keyword 'SaveOpportunitiesDetails' in app 'Classic'
+2020-10-23 00:10:37,760 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,761 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-10-23 00:10:37,761 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,767  INFO - Changing log level
+2020-10-23 00:10:37,767  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 00:10:37,767 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 00:10:37,767 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 00:10:37,773 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 00:10:37,773 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,773 DEBUG - Loading keyword 'AddQuoteToOpportunity' in app 'Classic'
+2020-10-23 00:10:37,773 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,774 DEBUG - Loading keyword 'EnterQuoteMandatoryDetails' in app 'Classic'
+2020-10-23 00:10:37,774 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,775 DEBUG - Loading keyword 'SaveQuoteDetails' in app 'Classic'
+2020-10-23 00:10:37,775 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,776 DEBUG - Loading keyword 'AddAccountOrderAddressForQuote' in app 'Classic'
+2020-10-23 00:10:37,776 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,778 DEBUG - Loading keyword 'NavigateToEditLineItemsPage' in app 'Classic'
+2020-10-23 00:10:37,778 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,780 DEBUG - Loading keyword 'SearchAndAddOneHardwareProduct' in app 'Classic'
+2020-10-23 00:10:37,780 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,781 DEBUG - Loading keyword 'ValidateProductsInQuoteLines' in app 'Classic'
+2020-10-23 00:10:37,782 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,783 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-10-23 00:10:37,784 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 00:10:37,789  INFO - Checking Verify Creation of New Contact's dependencies.
+2020-10-23 00:10:37,789  INFO - Dependencies OK, running test.
+2020-10-23 00:10:37,789  INFO - Changing log level
+2020-10-23 00:10:37,789  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 00:10:37,789  INFO - Changing log level
+2020-10-23 00:10:37,789  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 00:10:37,816  INFO - Loading test data for Verify Creation of New Contact
+2020-10-23 00:10:37,823  INFO - Changing log level
+2020-10-23 00:10:37,823  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 00:10:37,823  INFO - Verify Creation of New Contact run #1
+2020-10-23 00:10:37,823 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 00:10:37,824  INFO - Initializing keyword LoginToApplication
+2020-10-23 00:10:37,824  INFO - Executing keyword LoginToApplication
+2020-10-23 00:10:37,826 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 00:10:37,826 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 00:10:37,833 DEBUG - Args: {Browser=Chrome}
+2020-10-23 00:10:37,833  INFO - Initializing keyword Launch
+2020-10-23 00:10:37,834  INFO - Executing keyword Launch
+2020-10-23 00:10:51,042  INFO - Cleaning up keyword Launch
+2020-10-23 00:10:51,042  INFO - Keyword Launch complete.
+2020-10-23 00:11:08,246  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 00:11:08,246  INFO - Keyword LoginToApplication complete.
+2020-10-23 00:11:09,875 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 00:11:10,204 DEBUG - <a href="screenshots/shot_2020-10-23_0h11m9s876ms.jpg">Screen Shot</a>
+2020-10-23 00:11:10,205 DEBUG - Args: {AccountName=Automation_12133}
+2020-10-23 00:11:10,205  INFO - Initializing keyword CreateContactFromExistingAccount
+2020-10-23 00:11:10,205  INFO - Executing keyword CreateContactFromExistingAccount

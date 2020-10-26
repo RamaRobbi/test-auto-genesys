@@ -1,0 +1,46 @@
+2020-09-22 15:35:07,940  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-09-22 15:35:07,944  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-09-22 15:35:08,164  INFO - Changing log level
+2020-09-22 15:35:08,165  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:35:08,165 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-09-22 15:35:08,167 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-22 15:35:08,180 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-09-22 15:35:08,185 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 15:35:08,193 DEBUG - Loading keyword 'SearchAndAddOneHardwareProduct' in app 'Classic'
+2020-09-22 15:35:08,193 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 15:35:08,198  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-09-22 15:35:08,198  INFO - Dependencies OK, running test.
+2020-09-22 15:35:08,198  INFO - Changing log level
+2020-09-22 15:35:08,198  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:35:08,198  INFO - Changing log level
+2020-09-22 15:35:08,198  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:35:08,217  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-22 15:35:08,237  INFO - Changing log level
+2020-09-22 15:35:08,237  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:35:08,237  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-09-22 15:35:08,238 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 15:35:08,238  INFO - Initializing keyword LoginToApplication
+2020-09-22 15:35:08,238  INFO - Executing keyword LoginToApplication
+2020-09-22 15:35:08,240 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-09-22 15:35:08,240 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-09-22 15:35:08,246 DEBUG - Args: {Browser=Chrome}
+2020-09-22 15:35:08,246  INFO - Initializing keyword Launch
+2020-09-22 15:35:08,247  INFO - Executing keyword Launch
+2020-09-22 15:35:15,327  INFO - Cleaning up keyword Launch
+2020-09-22 15:35:15,327  INFO - Keyword Launch complete.
+2020-09-22 15:35:30,272  INFO - Cleaning up keyword LoginToApplication
+2020-09-22 15:35:30,272  INFO - Keyword LoginToApplication complete.
+2020-09-22 15:35:30,943 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 15:35:31,467 DEBUG - <a href="screenshots/shot_2020-9-22_15h35m30s944ms.jpg">Screen Shot</a>
+2020-09-22 15:35:31,468 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00, HardwareProd1MandateFieldValues=12||2, QuoteFieldValues=Monthly|2 Years| 9/9/2020|Test|New Subscription|12|9/9/2020|Annual M2M|Net 30|Yes|Yes|Test}
+2020-09-22 15:35:31,469  INFO - Initializing keyword SearchAndAddOneHardwareProduct
+2020-09-22 15:35:31,469  INFO - Executing keyword SearchAndAddOneHardwareProduct
+2020-09-22 15:37:25,607  WARN - Keyword SearchAndAddOneHardwareProduct execution fail: In User is not able to enter text in : <b>Quantity -  Textbox ----WebElement <b>.//div[@field='SBQQ__Quantity__c']//input<b> is not clickable/found 
+
+2020-09-22 15:37:25,607  INFO - Cleaning up keyword SearchAndAddOneHardwareProduct
+2020-09-22 15:37:25,607  INFO - Keyword SearchAndAddOneHardwareProduct complete.
+2020-09-22 15:37:26,246 DEBUG - Arguments: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00, HardwareProd1MandateFieldValues=12||2, QuoteFieldValues=Monthly|2 Years| 9/9/2020|Test|New Subscription|12|9/9/2020|Annual M2M|Net 30|Yes|Yes|Test}
+2020-09-22 15:37:26,570 DEBUG - <a href="screenshots/shot_2020-9-22_15h37m26s246ms.jpg">Screen Shot</a>
+2020-09-22 15:37:26,570 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-09-22 15:37:26,577  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-09-22 15:37:33,345  INFO - Test Failed

@@ -1,0 +1,36 @@
+2020-08-25 17:30:14,430  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-25 17:30:14,471  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-25 17:30:21,741  INFO - Changing log level
+2020-08-25 17:30:21,743  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 17:30:21,746 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-08-25 17:30:21,816 DEBUG - Creating test case Verify cancellation of Account creation
+2020-08-25 17:30:22,155 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 17:30:22,170 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 17:30:22,227 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-25 17:30:22,228 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 17:30:22,236 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-25 17:30:22,237 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 17:30:22,245 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Classic'
+2020-08-25 17:30:22,246 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 17:30:22,254 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 17:30:22,254 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 17:30:27,507  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-08-25 17:30:27,527  INFO - Dependencies OK, running test.
+2020-08-25 17:30:27,536  INFO - Changing log level
+2020-08-25 17:30:27,541  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 17:30:27,546  INFO - Changing log level
+2020-08-25 17:30:27,550  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 17:30:28,020  INFO - Loading test data for Verify cancellation of Account creation
+2020-08-25 17:30:31,509  INFO - Changing log level
+2020-08-25 17:30:31,513  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 17:30:31,517  INFO - Verify cancellation of Account creation run #1
+2020-08-25 17:30:31,521 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-25 17:30:31,526  INFO - Initializing keyword LoginToApplication
+2020-08-25 17:30:57,433  INFO - Executing keyword LoginToApplication
+2020-08-25 17:30:57,731 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-25 17:30:57,752 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-25 17:30:57,988 DEBUG - Args: {Browser=Chrome}
+2020-08-25 17:30:57,993  INFO - Initializing keyword Launch
+2020-08-25 17:30:58,022  INFO - Executing keyword Launch
+2020-08-25 17:31:15,716  INFO - Cleaning up keyword Launch
+2020-08-25 17:31:15,718  INFO - Keyword Launch complete.

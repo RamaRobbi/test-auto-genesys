@@ -1,0 +1,43 @@
+2020-10-23 01:25:40,420  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 01:25:40,425  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 01:25:40,649  INFO - Changing log level
+2020-10-23 01:25:40,649  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:25:40,650 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 01:25:40,652 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 01:25:40,664 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 01:25:40,667 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 01:25:40,676 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-23 01:25:40,676 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 01:25:40,682  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 01:25:40,682  INFO - Dependencies OK, running test.
+2020-10-23 01:25:40,682  INFO - Changing log level
+2020-10-23 01:25:40,682  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:25:40,682  INFO - Changing log level
+2020-10-23 01:25:40,683  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:25:40,706  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 01:25:40,724  INFO - Changing log level
+2020-10-23 01:25:40,724  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:25:40,724  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 01:25:40,724 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 01:25:40,725  INFO - Initializing keyword LoginToApplication
+2020-10-23 01:25:40,725  INFO - Executing keyword LoginToApplication
+2020-10-23 01:25:40,727 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 01:25:40,728 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 01:25:40,734 DEBUG - Args: {Browser=Chrome}
+2020-10-23 01:25:40,734  INFO - Initializing keyword Launch
+2020-10-23 01:25:40,734  INFO - Executing keyword Launch
+2020-10-23 01:25:48,138  INFO - Cleaning up keyword Launch
+2020-10-23 01:25:48,138  INFO - Keyword Launch complete.
+2020-10-23 01:26:07,775  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 01:26:07,776  INFO - Keyword LoginToApplication complete.
+2020-10-23 01:26:08,258 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 01:26:08,667 DEBUG - <a href="screenshots/shot_2020-10-23_1h26m8s259ms.jpg">Screen Shot</a>
+2020-10-23 01:26:08,668 DEBUG - Args: {BundleProduct1=PureCloud 2 User - Wrapper@1.00|PureCloud 2 User - Ramp@1.00}
+2020-10-23 01:26:08,668  INFO - Initializing keyword SearchAndAddWrapperProduct
+2020-10-23 01:26:08,668  INFO - Executing keyword SearchAndAddWrapperProduct
+2020-10-23 01:27:23,477  INFO - Cleaning up keyword SearchAndAddWrapperProduct
+2020-10-23 01:27:23,478  INFO - Keyword SearchAndAddWrapperProduct complete.
+2020-10-23 01:27:23,852 DEBUG - Arguments: {BundleProduct1=PureCloud 2 User - Wrapper@1.00|PureCloud 2 User - Ramp@1.00}
+2020-10-23 01:27:24,183 DEBUG - <a href="screenshots/shot_2020-10-23_1h27m23s852ms.jpg">Screen Shot</a>
+2020-10-23 01:27:24,208  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-23 01:27:25,973  INFO - Test Passed

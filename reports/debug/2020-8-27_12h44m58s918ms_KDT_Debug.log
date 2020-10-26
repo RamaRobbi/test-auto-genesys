@@ -1,0 +1,68 @@
+2020-08-27 12:45:05,623  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-27 12:45:05,713  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-27 12:45:06,736  INFO - Changing log level
+2020-08-27 12:45:06,736  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:45:06,737 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-08-27 12:45:06,776 DEBUG - Creating test case Verify Creation of New Account
+2020-08-27 12:45:06,810 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-27 12:45:06,974 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:45:07,258 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-27 12:45:07,258 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:45:07,295 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-27 12:45:07,296 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:45:07,341 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-27 12:45:07,341 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:45:07,360 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-27 12:45:07,361 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:45:07,363 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-27 12:45:07,364 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 12:45:07,429  INFO - Checking Verify Creation of New Account's dependencies.
+2020-08-27 12:45:07,429  INFO - Dependencies OK, running test.
+2020-08-27 12:45:07,429  INFO - Changing log level
+2020-08-27 12:45:07,429  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:45:07,430  INFO - Changing log level
+2020-08-27 12:45:07,430  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:45:07,722  INFO - Loading test data for Verify Creation of New Account
+2020-08-27 12:45:07,750  INFO - Changing log level
+2020-08-27 12:45:07,750  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 12:45:07,751  INFO - Verify Creation of New Account run #1
+2020-08-27 12:45:07,751 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 12:45:07,751  INFO - Initializing keyword LoginToApplication
+2020-08-27 12:45:07,751  INFO - Executing keyword LoginToApplication
+2020-08-27 12:45:07,793 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-27 12:45:07,794 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-27 12:45:08,006 DEBUG - Args: {Browser=Chrome}
+2020-08-27 12:45:08,006  INFO - Initializing keyword Launch
+2020-08-27 12:45:08,006  INFO - Executing keyword Launch
+2020-08-27 12:45:25,957  INFO - Cleaning up keyword Launch
+2020-08-27 12:45:25,958  INFO - Keyword Launch complete.
+2020-08-27 12:45:49,275  INFO - Cleaning up keyword LoginToApplication
+2020-08-27 12:45:49,275  INFO - Keyword LoginToApplication complete.
+2020-08-27 12:45:51,986 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 12:45:52,409 DEBUG - <a href="screenshots/shot_2020-8-27_12h45m51s986ms.jpg">Screen Shot</a>
+2020-08-27 12:45:52,410 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-08-27 12:45:52,410  INFO - Initializing keyword SelectAccountRecordType
+2020-08-27 12:45:52,411  INFO - Executing keyword SelectAccountRecordType
+2020-08-27 12:46:01,045  INFO - Cleaning up keyword SelectAccountRecordType
+2020-08-27 12:46:01,045  INFO - Keyword SelectAccountRecordType complete.
+2020-08-27 12:46:01,378 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-08-27 12:46:01,669 DEBUG - <a href="screenshots/shot_2020-8-27_12h46m1s379ms.jpg">Screen Shot</a>
+2020-08-27 12:46:01,669 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 12:46:01,670  INFO - Initializing keyword AccountSearchByName
+2020-08-27 12:46:01,670  INFO - Executing keyword AccountSearchByName
+2020-08-27 12:46:08,686  INFO - Cleaning up keyword AccountSearchByName
+2020-08-27 12:46:08,686  INFO - Keyword AccountSearchByName complete.
+2020-08-27 12:46:09,021 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 12:46:09,326 DEBUG - <a href="screenshots/shot_2020-8-27_12h46m9s22ms.jpg">Screen Shot</a>
+2020-08-27 12:46:09,326 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 12:46:09,326  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-08-27 12:46:09,327  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-08-27 12:47:10,717  WARN - Keyword EnterAccountMandatoryDetails execution fail: Element is not present in the combobox with text having xpath - <b>//label[text()='WW Employee Range	']/../following-sibling::td[1]//select</b>
+2020-08-27 12:47:10,718  WARN - Could not find the matching element
+2020-08-27 12:47:10,718  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-08-27 12:47:10,718  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-08-27 12:47:11,414 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 12:47:11,696 DEBUG - <a href="screenshots/shot_2020-8-27_12h47m11s415ms.jpg">Screen Shot</a>
+2020-08-27 12:47:11,696 ERROR - Verify Creation of New Account run #1 failed.
+2020-08-27 12:47:11,765  INFO - Verify Creation of New Account completed.
+2020-08-27 12:47:15,083  INFO - Test Failed

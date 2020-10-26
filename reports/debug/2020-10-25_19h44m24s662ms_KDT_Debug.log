@@ -1,0 +1,92 @@
+2020-10-25 19:44:29,427  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 19:44:29,430  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 19:44:29,636  INFO - Changing log level
+2020-10-25 19:44:29,637  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:44:29,637 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 19:44:29,640 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 19:44:29,654 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 19:44:29,659 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:44:29,669 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 19:44:29,669 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:44:29,670 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 19:44:29,670 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:44:29,671 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Lightning'
+2020-10-25 19:44:29,672 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:44:29,673 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-25 19:44:29,673 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:44:29,675 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 19:44:29,675 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:44:29,688  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 19:44:29,688  INFO - Dependencies OK, running test.
+2020-10-25 19:44:29,689  INFO - Changing log level
+2020-10-25 19:44:29,689  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:44:29,689  INFO - Changing log level
+2020-10-25 19:44:29,689  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:44:29,708  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 19:44:29,738  INFO - Changing log level
+2020-10-25 19:44:29,738  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:44:29,738  INFO - Verify Creation of New Account run #1
+2020-10-25 19:44:29,739 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 19:44:29,739  INFO - Initializing keyword LoginToApplication
+2020-10-25 19:44:29,739  INFO - Executing keyword LoginToApplication
+2020-10-25 19:44:29,741 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 19:44:29,741 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 19:44:29,746 DEBUG - Args: {Browser=Chrome}
+2020-10-25 19:44:29,746  INFO - Initializing keyword Launch
+2020-10-25 19:44:29,747  INFO - Executing keyword Launch
+2020-10-25 19:44:38,013  INFO - Cleaning up keyword Launch
+2020-10-25 19:44:38,014  INFO - Keyword Launch complete.
+2020-10-25 19:44:57,008  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 19:44:57,008  INFO - Keyword LoginToApplication complete.
+2020-10-25 19:44:57,455 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 19:44:57,849 DEBUG - <a href="screenshots/shot_2020-10-25_19h44m57s456ms.jpg">Screen Shot</a>
+2020-10-25 19:44:57,850 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-10-25 19:44:57,850  INFO - Initializing keyword SelectAccountRecordType
+2020-10-25 19:44:57,850  INFO - Executing keyword SelectAccountRecordType
+2020-10-25 19:45:16,489  INFO - Cleaning up keyword SelectAccountRecordType
+2020-10-25 19:45:16,490  INFO - Keyword SelectAccountRecordType complete.
+2020-10-25 19:45:16,795 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-10-25 19:45:17,083 DEBUG - <a href="screenshots/shot_2020-10-25_19h45m16s797ms.jpg">Screen Shot</a>
+2020-10-25 19:45:17,084 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 19:45:17,084  INFO - Initializing keyword AccountSearchByNameAndClickNew
+2020-10-25 19:45:17,084  INFO - Executing keyword AccountSearchByNameAndClickNew
+2020-10-25 19:45:26,550  INFO - Cleaning up keyword AccountSearchByNameAndClickNew
+2020-10-25 19:45:26,551  INFO - Keyword AccountSearchByNameAndClickNew complete.
+2020-10-25 19:45:26,900 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 19:45:27,248 DEBUG - <a href="screenshots/shot_2020-10-25_19h45m26s901ms.jpg">Screen Shot</a>
+2020-10-25 19:45:27,248 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 19:45:27,249  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-10-25 19:45:27,249  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-10-25 19:49:36,536 ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='uiPopupTrigger']//a[text()='visibleText'] (tried for 150 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.qualitestgroup.keywords.common.ElementOperation.clickElementAfterReplacingKeyValue(ElementOperation.java:313)
+	at com.qualitestgroup.keywords.lightning.Lightning$EnterAccountMandatoryDetails.exec(Lightning.java:429)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class='uiPopupTrigger']//a[text()='visibleText']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: KDTDriver
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 7 more
+
+2020-10-25 19:49:36,537  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-10-25 19:49:36,538  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-10-25 19:49:37,166 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 19:49:37,474 DEBUG - <a href="screenshots/shot_2020-10-25_19h49m37s166ms.jpg">Screen Shot</a>
+2020-10-25 19:49:37,475 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 19:49:37,503  INFO - Verify Creation of New Account completed.
+2020-10-25 19:49:39,971  INFO - Test Failed

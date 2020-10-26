@@ -1,0 +1,52 @@
+2020-09-22 14:43:19,275  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-09-22 14:43:19,296  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-09-22 14:43:20,369  INFO - Changing log level
+2020-09-22 14:43:20,369  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:43:20,370 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-09-22 14:43:20,384 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-22 14:43:20,439 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-09-22 14:43:20,450 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 14:43:20,528 DEBUG - Loading keyword 'SearchAndAddOneHardwareProduct' in app 'Classic'
+2020-09-22 14:43:20,529 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 14:43:20,568  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-09-22 14:43:20,569  INFO - Dependencies OK, running test.
+2020-09-22 14:43:20,569  INFO - Changing log level
+2020-09-22 14:43:20,569  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:43:20,570  INFO - Changing log level
+2020-09-22 14:43:20,570  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:43:20,938  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-22 14:43:20,978  INFO - Changing log level
+2020-09-22 14:43:20,980  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:43:20,980  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-09-22 14:43:20,981 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 14:43:20,982  INFO - Initializing keyword LoginToApplication
+2020-09-22 14:43:20,983  INFO - Executing keyword LoginToApplication
+2020-09-22 14:43:20,987 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-09-22 14:43:20,988 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-09-22 14:43:21,024 DEBUG - Args: {Browser=Chrome}
+2020-09-22 14:43:21,025  INFO - Initializing keyword Launch
+2020-09-22 14:43:21,027  INFO - Executing keyword Launch
+2020-09-22 14:43:31,094  INFO - Cleaning up keyword Launch
+2020-09-22 14:43:31,094  INFO - Keyword Launch complete.
+2020-09-22 14:43:50,070  INFO - Cleaning up keyword LoginToApplication
+2020-09-22 14:43:50,071  INFO - Keyword LoginToApplication complete.
+2020-09-22 14:43:50,797 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 14:43:52,042 DEBUG - <a href="screenshots/shot_2020-9-22_14h43m50s798ms.jpg">Screen Shot</a>
+2020-09-22 14:43:52,044 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00, HardwareProd1MandateFieldValues=12||2, QuoteFieldValues=Monthly|2 Years| 9/9/2020|Test|New Subscription|12|9/9/2020|Annual M2M|Net 30|Yes|Yes|Test}
+2020-09-22 14:43:52,044  INFO - Initializing keyword SearchAndAddOneHardwareProduct
+2020-09-22 14:43:52,045  INFO - Executing keyword SearchAndAddOneHardwareProduct
+2020-09-22 14:45:47,307  WARN - Keyword SearchAndAddOneHardwareProduct execution fail: Not able to click on an element having xpath - <b>(//div[@class='row style-scope sf-le-table-row']//child::div[@field='SBQQ__Quantity__c']/div)[1]</b>
+2020-09-22 14:45:47,310  WARN - element click intercepted: Element <div class="r style-scope sf-le-table-row">...</div> is not clickable at point (842, 369). Other element would receive the click: <input device="" is="iron-input" class="myinput numberInput style-scope sb-input --desktop style-scope sf-le-table-row" type="text">
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.232.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir24264_1741317625}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:61813}, acceptInsecureCerts=false, browserVersion=84.0.4147.135, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a1692d4eacafa194a3f1175773a9749b
+2020-09-22 14:45:47,311  INFO - Cleaning up keyword SearchAndAddOneHardwareProduct
+2020-09-22 14:45:47,311  INFO - Keyword SearchAndAddOneHardwareProduct complete.
+2020-09-22 14:45:48,181 DEBUG - Arguments: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00, HardwareProd1MandateFieldValues=12||2, QuoteFieldValues=Monthly|2 Years| 9/9/2020|Test|New Subscription|12|9/9/2020|Annual M2M|Net 30|Yes|Yes|Test}
+2020-09-22 14:45:48,570 DEBUG - <a href="screenshots/shot_2020-9-22_14h45m48s182ms.jpg">Screen Shot</a>
+2020-09-22 14:45:48,571 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-09-22 14:45:48,589  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-09-22 14:45:50,820  INFO - Test Failed

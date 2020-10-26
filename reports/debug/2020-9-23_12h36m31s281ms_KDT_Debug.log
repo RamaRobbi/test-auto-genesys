@@ -1,0 +1,58 @@
+2020-09-23 12:36:38,041  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-09-23 12:36:38,084  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-09-23 12:36:38,517  INFO - Changing log level
+2020-09-23 12:36:38,517  INFO - Log Level has successfuly changed to: TRACE
+2020-09-23 12:36:38,518 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-09-23 12:36:38,520 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-23 12:36:38,532 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-09-23 12:36:38,537 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-23 12:36:38,546 DEBUG - Loading keyword 'SearchAndAddOneHardwareProduct' in app 'Classic'
+2020-09-23 12:36:38,547 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-23 12:36:38,552  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-09-23 12:36:38,552  INFO - Dependencies OK, running test.
+2020-09-23 12:36:38,552  INFO - Changing log level
+2020-09-23 12:36:38,552  INFO - Log Level has successfuly changed to: TRACE
+2020-09-23 12:36:38,552  INFO - Changing log level
+2020-09-23 12:36:38,553  INFO - Log Level has successfuly changed to: TRACE
+2020-09-23 12:36:38,593  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-23 12:36:38,616  INFO - Changing log level
+2020-09-23 12:36:38,647  INFO - Log Level has successfuly changed to: TRACE
+2020-09-23 12:36:38,647  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-09-23 12:36:38,648 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-23 12:36:38,648  INFO - Initializing keyword LoginToApplication
+2020-09-23 12:36:38,648  INFO - Executing keyword LoginToApplication
+2020-09-23 12:36:38,650 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-09-23 12:36:38,651 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-09-23 12:36:38,657 DEBUG - Args: {Browser=Chrome}
+2020-09-23 12:36:38,657  INFO - Initializing keyword Launch
+2020-09-23 12:36:38,658  INFO - Executing keyword Launch
+2020-09-23 12:36:46,517  INFO - Cleaning up keyword Launch
+2020-09-23 12:36:46,518  INFO - Keyword Launch complete.
+2020-09-23 12:41:58,777 ERROR - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.232.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir23280_1197613892}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50184}, acceptInsecureCerts=false, browserVersion=84.0.4147.135, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 806589693d25a387cb55603cda594e61
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:374)
+	at com.qualitestgroup.keywords.classic.Classic$LoginToApplication.exec(Classic.java:126)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+
+2020-09-23 12:41:58,780  INFO - Cleaning up keyword LoginToApplication
+2020-09-23 12:41:58,781  INFO - Keyword LoginToApplication complete.

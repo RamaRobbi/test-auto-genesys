@@ -1,0 +1,73 @@
+2020-08-26 15:50:37,354  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-26 15:50:37,359  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-26 15:50:37,656  INFO - Changing log level
+2020-08-26 15:50:37,656  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 15:50:37,656 DEBUG - Loading test case 'Verify user is able to edit account'
+2020-08-26 15:50:37,661 DEBUG - Creating test case Verify user is able to edit account
+2020-08-26 15:50:37,681 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-26 15:50:37,688 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 15:50:37,730 DEBUG - Loading keyword 'EditAccount' in app 'Classic'
+2020-08-26 15:50:37,730 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 15:50:37,733 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-26 15:50:37,734 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 15:50:37,736 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-26 15:50:37,736 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 15:50:37,751  INFO - Checking Verify user is able to edit account's dependencies.
+2020-08-26 15:50:37,751  INFO - Dependencies OK, running test.
+2020-08-26 15:50:37,752  INFO - Changing log level
+2020-08-26 15:50:37,752  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 15:50:37,752  INFO - Changing log level
+2020-08-26 15:50:37,752  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 15:50:37,773  INFO - Loading test data for Verify user is able to edit account
+2020-08-26 15:50:37,793  INFO - Changing log level
+2020-08-26 15:50:37,794  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 15:50:37,794  INFO - Verify user is able to edit account run #1
+2020-08-26 15:50:37,794 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-26 15:50:37,794  INFO - Initializing keyword LoginToApplication
+2020-08-26 15:50:37,795  INFO - Executing keyword LoginToApplication
+2020-08-26 15:50:37,796 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-26 15:50:37,797 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-26 15:50:37,805 DEBUG - Args: {Browser=Chrome}
+2020-08-26 15:50:37,805  INFO - Initializing keyword Launch
+2020-08-26 15:50:37,807  INFO - Executing keyword Launch
+2020-08-26 15:50:44,299  INFO - Cleaning up keyword Launch
+2020-08-26 15:50:44,300  INFO - Keyword Launch complete.
+2020-08-26 15:51:40,324  INFO - Cleaning up keyword LoginToApplication
+2020-08-26 15:51:40,324  INFO - Keyword LoginToApplication complete.
+2020-08-26 15:51:41,052 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-26 15:51:42,166 DEBUG - <a href="screenshots/shot_2020-8-26_15h51m41s53ms.jpg">Screen Shot</a>
+2020-08-26 15:51:42,167 DEBUG - Args: {AccountName=Auto_Acct001}
+2020-08-26 15:51:42,167  INFO - Initializing keyword EditAccount
+2020-08-26 15:51:42,167  INFO - Executing keyword EditAccount
+2020-08-26 15:57:18,838 ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Auto_Acct001')] (tried for 150 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.qualitestgroup.keywords.common.ElementOperation.clickElementAfterReplacingKeyValue(ElementOperation.java:305)
+	at com.qualitestgroup.keywords.classic.Classic$EditAccount.exec(Classic.java:459)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //a[contains(text(),'Auto_Acct001')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.235.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: KDTDriver
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 7 more
+
+2020-08-26 15:57:20,793  INFO - Cleaning up keyword EditAccount
+2020-08-26 15:57:22,570  INFO - Keyword EditAccount complete.
+2020-08-26 15:57:38,836 DEBUG - Arguments: {AccountName=Auto_Acct001}
+2020-08-26 15:57:42,479 DEBUG - <a href="screenshots/shot_2020-8-26_15h57m39s723ms.jpg">Screen Shot</a>
+2020-08-26 15:57:48,775 ERROR - Verify user is able to edit account run #1 failed.
+2020-08-26 15:58:00,285  INFO - Verify user is able to edit account completed.

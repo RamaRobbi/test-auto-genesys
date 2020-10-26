@@ -1,0 +1,54 @@
+2020-10-25 22:47:50,282  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 22:47:50,289  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 22:47:50,617  INFO - Changing log level
+2020-10-25 22:47:50,617  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:47:50,618 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 22:47:50,620 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 22:47:50,640 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 22:47:50,645 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 22:47:50,656 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Lightning'
+2020-10-25 22:47:50,656 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 22:47:50,713  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 22:47:50,713  INFO - Dependencies OK, running test.
+2020-10-25 22:47:50,713  INFO - Changing log level
+2020-10-25 22:47:50,713  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:47:50,714  INFO - Changing log level
+2020-10-25 22:47:50,714  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:47:50,729  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 22:47:50,750  INFO - Changing log level
+2020-10-25 22:47:50,751  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:47:50,751  INFO - Verify Creation of New Account run #1
+2020-10-25 22:47:50,751 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 22:47:50,751  INFO - Initializing keyword LoginToApplication
+2020-10-25 22:47:50,752  INFO - Executing keyword LoginToApplication
+2020-10-25 22:47:50,753 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 22:47:50,755 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 22:47:50,762 DEBUG - Args: {Browser=Chrome}
+2020-10-25 22:47:50,763  INFO - Initializing keyword Launch
+2020-10-25 22:47:50,763  INFO - Executing keyword Launch
+2020-10-25 22:47:59,645  INFO - Cleaning up keyword Launch
+2020-10-25 22:47:59,645  INFO - Keyword Launch complete.
+2020-10-25 22:48:30,851  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 22:48:30,851  INFO - Keyword LoginToApplication complete.
+2020-10-25 22:48:31,259 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 22:48:31,531 DEBUG - <a href="screenshots/shot_2020-10-25_22h48m31s260ms.jpg">Screen Shot</a>
+2020-10-25 22:48:31,531 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 22:48:31,532  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-10-25 22:48:31,532  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-10-25 22:48:47,524  WARN - Keyword EnterAccountMandatoryDetails execution fail: Not able to enter on an element having xpath - <b>//span[text()='Account Name']/parent::label//following-sibling::input</b>
+2020-10-25 22:48:47,609  WARN - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Account Name']/parent::label//following-sibling::input"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir17848_2121635969}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62511}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 5832c6fbf8e0bc80fb31b527d2e93e0f
+*** Element info: {Using=xpath, value=//span[text()='Account Name']/parent::label//following-sibling::input}
+2020-10-25 22:48:47,609  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-10-25 22:48:47,609  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-10-25 22:48:52,188 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 22:48:52,518 DEBUG - <a href="screenshots/shot_2020-10-25_22h48m52s188ms.jpg">Screen Shot</a>
+2020-10-25 22:48:52,519 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 22:48:52,529  INFO - Verify Creation of New Account completed.
+2020-10-25 22:48:55,747  INFO - Test Failed

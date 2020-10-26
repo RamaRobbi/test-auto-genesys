@@ -1,0 +1,48 @@
+2020-10-25 22:53:22,748  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 22:53:22,778  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 22:53:23,096  INFO - Changing log level
+2020-10-25 22:53:23,096  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:53:23,096 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 22:53:23,099 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 22:53:23,115 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 22:53:23,120 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 22:53:23,130 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 22:53:23,131 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 22:53:23,133 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Lightning'
+2020-10-25 22:53:23,133 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 22:53:23,179  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 22:53:23,179  INFO - Dependencies OK, running test.
+2020-10-25 22:53:23,179  INFO - Changing log level
+2020-10-25 22:53:23,180  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:53:23,182  INFO - Changing log level
+2020-10-25 22:53:23,182  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:53:23,198  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 22:53:23,216  INFO - Changing log level
+2020-10-25 22:53:23,216  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 22:53:23,216  INFO - Verify Creation of New Account run #1
+2020-10-25 22:53:23,217 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 22:53:23,217  INFO - Initializing keyword LoginToApplication
+2020-10-25 22:53:23,217  INFO - Executing keyword LoginToApplication
+2020-10-25 22:53:23,219 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 22:53:23,220 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 22:53:23,228 DEBUG - Args: {Browser=Chrome}
+2020-10-25 22:53:23,228  INFO - Initializing keyword Launch
+2020-10-25 22:53:23,229  INFO - Executing keyword Launch
+2020-10-25 22:53:36,834  INFO - Cleaning up keyword Launch
+2020-10-25 22:53:36,834  INFO - Keyword Launch complete.
+2020-10-25 22:54:20,018  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 22:54:20,018  INFO - Keyword LoginToApplication complete.
+2020-10-25 22:54:21,848 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 22:54:22,946 DEBUG - <a href="screenshots/shot_2020-10-25_22h54m21s849ms.jpg">Screen Shot</a>
+2020-10-25 22:54:22,947 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 22:54:22,947  INFO - Initializing keyword AccountSearchByNameAndClickNew
+2020-10-25 22:54:22,947  INFO - Executing keyword AccountSearchByNameAndClickNew
+2020-10-25 22:55:31,076  WARN - Keyword AccountSearchByNameAndClickNew execution fail: <b>Account Home Page Title is not displayed --- Waited for <b>60<> Seconds --- WebElement <b>//h2[@class='pageDescription'][text()='Account Search']<b> is not found 
+
+2020-10-25 22:55:31,077  INFO - Cleaning up keyword AccountSearchByNameAndClickNew
+2020-10-25 22:55:31,077  INFO - Keyword AccountSearchByNameAndClickNew complete.
+2020-10-25 22:55:31,809 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 22:55:32,346 DEBUG - <a href="screenshots/shot_2020-10-25_22h55m31s809ms.jpg">Screen Shot</a>
+2020-10-25 22:55:32,347 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 22:55:32,461  INFO - Verify Creation of New Account completed.
+2020-10-25 22:55:37,628  INFO - Test Failed

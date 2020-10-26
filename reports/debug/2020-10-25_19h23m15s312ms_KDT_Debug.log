@@ -1,0 +1,55 @@
+2020-10-25 19:23:21,286  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 19:23:21,502  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 19:23:21,931  INFO - Changing log level
+2020-10-25 19:23:21,931  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:23:21,932 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 19:23:21,935 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 19:23:21,957 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 19:23:22,101 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:23:22,381 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 19:23:22,382 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:23:22,391 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 19:23:22,393 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:23:22,402 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Lightning'
+2020-10-25 19:23:22,402 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:23:22,434 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-25 19:23:22,435 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:23:22,451 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 19:23:22,452 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 19:23:22,510  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 19:23:22,511  INFO - Dependencies OK, running test.
+2020-10-25 19:23:22,512  INFO - Changing log level
+2020-10-25 19:23:22,512  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:23:22,513  INFO - Changing log level
+2020-10-25 19:23:22,513  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:23:22,597  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 19:23:22,635  INFO - Changing log level
+2020-10-25 19:23:22,636  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 19:23:22,636  INFO - Verify Creation of New Account run #1
+2020-10-25 19:23:22,638 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 19:23:22,639  INFO - Initializing keyword LoginToApplication
+2020-10-25 19:23:22,639  INFO - Executing keyword LoginToApplication
+2020-10-25 19:23:22,641 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 19:23:22,642 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 19:23:22,649 DEBUG - Args: {Browser=Chrome}
+2020-10-25 19:23:22,649  INFO - Initializing keyword Launch
+2020-10-25 19:23:22,650  INFO - Executing keyword Launch
+2020-10-25 19:23:37,670  INFO - Cleaning up keyword Launch
+2020-10-25 19:23:37,671  INFO - Keyword Launch complete.
+2020-10-25 19:24:12,072  WARN - Keyword LoginToApplication execution fail: Not able to get text from an element having xpath - <b>//span[contains(text(),'Home')]</b>
+2020-10-25 19:24:12,078  WARN - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Home')]"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir16216_1973130017}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56964}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: a47005f4685b1af28cd095586b47fdbd
+*** Element info: {Using=xpath, value=//span[contains(text(),'Home')]}
+2020-10-25 19:24:12,080  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 19:24:12,081  INFO - Keyword LoginToApplication complete.
+2020-10-25 19:24:15,185 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 19:24:15,506 DEBUG - <a href="screenshots/shot_2020-10-25_19h24m15s187ms.jpg">Screen Shot</a>
+2020-10-25 19:24:15,508 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 19:24:15,524  INFO - Verify Creation of New Account completed.
+2020-10-25 19:24:19,150  INFO - Test Failed

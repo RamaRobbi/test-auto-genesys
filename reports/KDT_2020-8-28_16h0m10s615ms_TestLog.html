@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Test Log</title>
+<style type='text/css'>
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+th a {color: #FFFFFF;}
+.open-show {display: table-row;}
+.open-hide, .close-hide {display: none;}
+.tog-off a:before {content:'[+]';}
+.tog-on a:before {content:'[-]';}
+.tog-off {font-size: x-large; text-align: center;}
+.tog-on {font-size: x-large; text-align: center;}
+</style>
+<script>
+function getClassList(elt){
+var classes=elt.className;
+var ret=new Object();
+ret.elt=elt;
+ret.classList=classes.split(' ');
+ret.contains=function(cls){
+return this.classList.indexOf(cls)>=0;};
+ret.remove=function(cls){
+var newClassList=[];
+while(this.classList.length>0){
+var tmp=this.classList.pop();
+if(tmp!=cls)
+newClassList.push(tmp);}
+this.classList=newClassList;
+this.elt.className=this.classList.join(' ');};
+ret.add=function(cls){
+this.classList.push(cls);
+this.elt.className=this.classList.join(' ');};
+ret.toggle=function(cls){
+if(this.contains(cls))
+this.remove(cls);
+else
+this.add(cls);};
+ret.length=ret.classList.length;
+ret.item=function(i) {
+return this.classList[i];};
+return ret;}
+function tog(cls){
+var rows=document.getElementsByClassName(cls);
+for(var r=0;r<rows.length;++r){
+var row=rows[r];
+var clslist = getClassList(row);
+if(row.getAttribute('data-thisclass')==cls){
+clslist.toggle('open-show');
+clslist.toggle('close-hide');}
+else{
+if(clslist.contains('open-show')){
+clslist.remove('open-show');
+clslist.add('open-hide');}
+else if(clslist.contains('open-hide')){
+var disp=true;
+for(var i=0;i<clslist.length;i++){
+var item=document.getElementById(clslist.item(i));
+if(getClassList(item).contains('close-hide')){
+disp=false;
+break;}}
+if(disp){
+clslist.remove('open-hide');
+clslist.add('open-show');}}}}}
+function openAll(){
+var closed=document.getElementsByClassName('tog-off');
+while(closed.length>0){
+closed[0].firstElementChild.click();}}
+function closeAll(){
+openAll();
+var open=document.getElementsByClassName('tog-on');
+while(open.length>0){
+open[open.length-1].firstElementChild.click();}}
+window.onload = function(){
+var close=document.getElementsByClassName('close-hide-temp');
+while(close.length>0){
+clslist=getClassList(close[0]);
+clslist.toggle('close-hide-temp');
+clslist.toggle('close-hide');}
+var togs=document.getElementsByClassName('tog-off-temp');
+while(togs.length>0){
+var elts=document.getElementsByClassName(togs[0].id);
+var clslist=getClassList(togs[0]);
+clslist.toggle('tog-off-temp');
+if(elts.length>0){
+clslist.toggle('tog-off');}}};
+</script>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<span id='open-hide'></span><span id='open-show'></span><span id='close-hide'></span>
+<hr size="1" noshade>
+Log session start time Fri Aug 28 16:00:10 IST 2020<div style='float: right;'>v0</div><br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Open <a onclick='openAll()' href='#'>all</a><br />Close <a onclick='closeAll()' href='#'>all</a></th><th colspan="2">Test Scenario</th><th>Test Case </th><th>Keywords / Test Steps</th><th>Error Message</th><th>Result</th><th>Comments</th>
+</tr>
+<tr id='tf0'>
+<td>Started: 2020/08/28 16:00:18.371<br>Run by: QUALITEST\ramanamma.robbi</td>
+<td class='tog-off-temp' id='tf0'><a onclick="tog('tf0');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#tf0'></a></td>
+<td colspan="2">Test File : CPQ_Automation_POC_Classic</td><td colspan="3"></td><td></td><td>Test started.</td></tr>
+<tr class="tf0 close-hide-temp" data-thisclass='tf0' id='td0' >
+<td>Step: 00:00:00.012<BR>Total: 00:00:00.012</td>
+<td class='tog-off-temp' id='td0'><a onclick="tog('td0');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#td0'></a></td>
+<td colspan="2" bgcolor=#CCCCCC>Verify Creation of New Account</td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC>[LoginToApplication, SelectAccountRecordType, AccountSearchByName, EnterAccountMandatoryDetails, SaveAccountDetails, CreateContactFromAccount, EnterContactMandatoryDetails, LogoutOfApplication]</td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC>STARTED</td><td bgcolor=#CCCCCC></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts1' >
+<td>Step: 00:00:24.440<BR>Total: 00:00:24.452</td>
+<td class='tog-off-temp' id='ts1'><a onclick="tog('ts1');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts1'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>LoginToApplication</td><td></td><td bgcolor=#00FF00>PASS</td><td>User is in Salesforce CPQ Page.</td></tr>
+<tr class="tf0 td0 ts1 close-hide-temp" data-thisclass='ts1' >
+<td>Step: 00:00:00.361<BR>Total: 00:00:24.813</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}</font></td></tr>
+<tr class="tf0 td0 ts1 close-hide-temp" data-thisclass='ts1' >
+<td>Step: 00:00:00.344<BR>Total: 00:00:25.157</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h0m43s184ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts2' >
+<td>Step: 00:00:07.658<BR>Total: 00:00:32.815</td>
+<td class='tog-off-temp' id='ts2'><a onclick="tog('ts2');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts2'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>SelectAccountRecordType</td><td></td><td bgcolor=#00FF00>PASS</td><td>Selected Record Type as EMG - Customer Record Type</td></tr>
+<tr class="tf0 td0 ts2 close-hide-temp" data-thisclass='ts2' >
+<td>Step: 00:00:00.302<BR>Total: 00:00:33.117</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {RecordType=EMG - Customer Record Type}</font></td></tr>
+<tr class="tf0 td0 ts2 close-hide-temp" data-thisclass='ts2' >
+<td>Step: 00:00:00.330<BR>Total: 00:00:33.447</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h0m51s489ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts3' >
+<td>Step: 00:00:06.434<BR>Total: 00:00:39.881</td>
+<td class='tog-off-temp' id='ts3'><a onclick="tog('ts3');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts3'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>AccountSearchByName</td><td></td><td bgcolor=#00FF00>PASS</td><td>Searched for Account by Name: ACCT_0001</br>Account Creation Process - Initiated for EMG - Customer Record Type</br>Landed in Account Creation Popup for the Account Record Type EMG - Customer Record Type</td></tr>
+<tr class="tf0 td0 ts3 close-hide-temp" data-thisclass='ts3' >
+<td>Step: 00:00:00.301<BR>Total: 00:00:40.182</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}</font></td></tr>
+<tr class="tf0 td0 ts3 close-hide-temp" data-thisclass='ts3' >
+<td>Step: 00:00:00.316<BR>Total: 00:00:40.498</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h0m58s553ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts4' >
+<td>Step: 00:01:06.794<BR>Total: 00:01:47.292</td>
+<td class='tog-off-temp' id='ts4'><a onclick="tog('ts4');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts4'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>EnterAccountMandatoryDetails</td><td></td><td bgcolor=#00FF00>PASS</td><td>Entered Account details</td></tr>
+<tr class="tf0 td0 ts4 close-hide-temp" data-thisclass='ts4' >
+<td>Step: 00:00:00.297<BR>Total: 00:01:47.589</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}</font></td></tr>
+<tr class="tf0 td0 ts4 close-hide-temp" data-thisclass='ts4' >
+<td>Step: 00:00:00.275<BR>Total: 00:01:47.864</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h2m5s960ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts5' >
+<td>Step: 00:00:14.799<BR>Total: 00:02:02.663</td>
+<td class='tog-off-temp' id='ts5'><a onclick="tog('ts5');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts5'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>SaveAccountDetails</td><td></td><td bgcolor=#00FF00>PASS</td><td>New Account was Saved successfully</td></tr>
+<tr class="tf0 td0 ts5 close-hide-temp" data-thisclass='ts5' >
+<td>Step: 00:00:00.698<BR>Total: 00:02:03.361</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {}</font></td></tr>
+<tr class="tf0 td0 ts5 close-hide-temp" data-thisclass='ts5' >
+<td>Step: 00:00:00.314<BR>Total: 00:02:03.675</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h2m21s732ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts6' >
+<td>Step: 00:00:30.576<BR>Total: 00:02:34.251</td>
+<td class='tog-off-temp' id='ts6'><a onclick="tog('ts6');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts6'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>CreateContactFromAccount</td><td></td><td bgcolor=#00FF00>PASS</td><td></td></tr>
+<tr class="tf0 td0 ts6 close-hide-temp" data-thisclass='ts6' >
+<td>Step: 00:00:00.347<BR>Total: 00:02:34.598</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {}</font></td></tr>
+<tr class="tf0 td0 ts6 close-hide-temp" data-thisclass='ts6' >
+<td>Step: 00:00:00.324<BR>Total: 00:02:34.922</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h2m52s969ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts7' >
+<td>Step: 00:02:48.599<BR>Total: 00:05:23.521</td>
+<td class='tog-off-temp' id='ts7'><a onclick="tog('ts7');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts7'></a></td>
+<td colspan="2">Verify Creation of New Account</td><td>TC003_CreateNewAccount</td><td>EnterContactMandatoryDetails</td><td>Unknown exception<br>Expected condition failed: waiting for element to be clickable: By.xpath: //*[@class="list"]//tr[@class='dataRow even first']//a (tried for 150 second(s) with 500 MILLISECONDS interval)<br>Cannot locate an element using By.xpath: //*[@class="list"]//tr[@class='dataRow even first']//a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.235.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: KDTDriver</td><td bgcolor=#FF0000>FAIL</td><td> - <a href="screenshots/shot_2020-8-28_16h5m41s616ms.jpg">Screen Shot</a></td></tr>
+<tr class="tf0 td0 ts7 close-hide-temp" data-thisclass='ts7' >
+<td>Step: 00:00:00.255<BR>Total: 00:05:23.776</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {ContactFieldValues=Automation|Creating Account|Active|01. Active|40664|8100}</font></td></tr>
+<tr class="tf0 td0 ts7 close-hide-temp" data-thisclass='ts7' >
+<td>Step: 00:00:00.235<BR>Total: 00:05:24.011</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-8-28_16h5m42s147ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 close-hide-temp" data-thisclass='tf0' id='~td0' >
+<td>Step: 00:00:00.000<BR>Total: 00:05:24.011</td>
+<td></td>
+<td colspan="2" bgcolor=#CCCCCC>Verify Creation of New Account</td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC>STOPPED</td><td bgcolor=#CCCCCC>Success: 6/7 (85% ) <br>Warnings: 0/7<br>Failures: 1/7 (14% ) <br>Skipped: 1</td></tr>
+<tr id='~tf0'>>
+<td>Step: 00:00:02.432<BR>Total: 00:05:26.443</td>
+<td></td>
+<td colspan="2">CPQ_Automation_POC_Classic</td><td colspan="3"><td bgcolor=#FF0000>FAIL</td><td>Success: 0/1<br>Failures: 1/1<br>Skipped: 0/1</td></tr>
+<td>Step: 00:00:00.000<BR>Total: 00:05:26.443</td>
+<td></td>
+<html><head><style>table,th,tr, td {  border: 1px solid black;text-align: center;}</style></head><body><table align="center" border= "3"><tr><th colspan ='5'<text-align: center;><font size=" "3" ">SUMMARY</th></tr><tr><td style=width:50%><font size=" "3" ">Total Test Scenarios</td><td><font size=" "3" ">1</td></tr></tr><tr><td style=width:50%><font size=" "3" ">Success </td><td><font size=" "3" ">0</td></tr></tr><tr><td style=width:50%><font size=" "3" ">Failed </td><td><font size=" "3" ">1</td></tr></tr><tr><td style=width:50%><font size=" "3" ">Skipped </td><td><font size=" "3" ">0</td></tr></table></body></html></tr>
+</table>
+<br>
+</body></html>

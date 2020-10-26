@@ -1,0 +1,238 @@
+2020-08-25 12:55:43,248  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-25 12:56:57,345  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-25 12:59:30,586  INFO - Changing log level
+2020-08-25 12:59:30,589  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 12:59:31,142 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-08-25 13:01:32,066 DEBUG - Creating test case Verify cancellation of Account creation
+2020-08-25 13:01:35,476 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:01:35,613 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:01:35,918 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-25 13:01:35,920 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:01:35,947 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-25 13:01:35,950 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:01:35,971 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Classic'
+2020-08-25 13:01:35,975 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:01:36,002 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:01:36,005 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:01:54,830  INFO - Changing log level
+2020-08-25 13:01:54,838  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:01:55,068 DEBUG - Loading test case 'Validation of error message in Accounts page'
+2020-08-25 13:01:57,005 DEBUG - Creating test case Validation of error message in Accounts page
+2020-08-25 13:02:00,926 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:02:00,930 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:00,936 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-25 13:02:00,939 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:00,943 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-25 13:02:00,947 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:00,951 DEBUG - Loading keyword 'ValidateErrorMessage' in app 'Classic'
+2020-08-25 13:02:00,955 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:00,981 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:02:00,984 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:07,077  INFO - Changing log level
+2020-08-25 13:02:07,080  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:02:07,352 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-08-25 13:02:32,714 DEBUG - Creating test case Verify Creation of New Account
+2020-08-25 13:02:36,489 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:02:36,493 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:36,499 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-25 13:02:36,502 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:36,506 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-25 13:02:36,510 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:36,515 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-25 13:02:36,518 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:36,558 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-25 13:02:36,562 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:02:36,579 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:02:36,582 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:03:58,515  INFO - Changing log level
+2020-08-25 13:03:58,518  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:03:58,899 DEBUG - Loading test case 'Verify Account is saved and New Account creation page Opens on clicking Save & New Button'
+2020-08-25 13:04:02,650 DEBUG - Creating test case Verify Account is saved and New Account creation page Opens on clicking Save & New Button
+2020-08-25 13:04:06,171 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:04:06,176 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:06,184 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-25 13:04:06,188 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:06,193 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-25 13:04:06,197 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:06,204 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-25 13:04:06,209 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:06,214 DEBUG - Loading keyword 'SaveAndNewAccount' in app 'Classic'
+2020-08-25 13:04:06,219 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:06,256 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:04:06,260 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:13,148  INFO - Changing log level
+2020-08-25 13:04:13,156  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:04:13,340 DEBUG - Loading test case 'Verify user is able to edit account'
+2020-08-25 13:04:15,272 DEBUG - Creating test case Verify user is able to edit account
+2020-08-25 13:04:18,587 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:04:18,590 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:18,596 DEBUG - Loading keyword 'EditAccount' in app 'Classic'
+2020-08-25 13:04:18,599 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:18,723 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-25 13:04:18,726 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:18,730 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:04:18,734 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:21,617  INFO - Changing log level
+2020-08-25 13:04:21,626  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:04:21,845 DEBUG - Loading test case 'Verify Account is saved and New Account creation page Opens on clicking Save & New Button while editing an Account'
+2020-08-25 13:04:25,003 DEBUG - Creating test case Verify Account is saved and New Account creation page Opens on clicking Save & New Button while editing an Account
+2020-08-25 13:04:28,141 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:04:28,144 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:28,150 DEBUG - Loading keyword 'EditAccount' in app 'Classic'
+2020-08-25 13:04:28,153 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:28,157 DEBUG - Loading keyword 'SaveAndNewAccount' in app 'Classic'
+2020-08-25 13:04:28,161 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:28,165 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:04:28,168 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:35,608  INFO - Changing log level
+2020-08-25 13:04:35,612  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:04:35,891 DEBUG - Loading test case 'Validation of error message in Contacts page'
+2020-08-25 13:04:42,688 DEBUG - Creating test case Validation of error message in Contacts page
+2020-08-25 13:04:45,907 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:04:45,910 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:45,917 DEBUG - Loading keyword 'SelectContactRecordType' in app 'Classic'
+2020-08-25 13:04:45,920 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:46,045 DEBUG - Loading keyword 'ValidateErrorMessage' in app 'Classic'
+2020-08-25 13:04:46,049 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:46,053 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:04:46,057 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:49,972  INFO - Changing log level
+2020-08-25 13:04:49,980  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:04:50,204 DEBUG - Loading test case 'Verify cancellation of Contact creation'
+2020-08-25 13:04:51,463 DEBUG - Creating test case Verify cancellation of Contact creation
+2020-08-25 13:04:55,339 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:04:55,344 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:55,351 DEBUG - Loading keyword 'SelectContactRecordType' in app 'Classic'
+2020-08-25 13:04:55,354 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:55,358 DEBUG - Loading keyword 'CancelContactCreation' in app 'Classic'
+2020-08-25 13:04:55,362 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:55,384 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:04:55,388 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:04:58,008  INFO - Changing log level
+2020-08-25 13:04:58,018  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:04:58,202 DEBUG - Loading test case 'Verify Creation of New Contact'
+2020-08-25 13:04:59,403 DEBUG - Creating test case Verify Creation of New Contact
+2020-08-25 13:05:02,670 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:02,674 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:02,679 DEBUG - Loading keyword 'SelectContactRecordType' in app 'Classic'
+2020-08-25 13:05:02,683 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:02,687 DEBUG - Loading keyword 'EnterContactMandatoryDetails' in app 'Classic'
+2020-08-25 13:05:02,690 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:02,829 DEBUG - Loading keyword 'SaveContactDetails' in app 'Classic'
+2020-08-25 13:05:02,834 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:02,865 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:02,869 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:03,361  INFO - Changing log level
+2020-08-25 13:05:03,367  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:03,408 DEBUG - Loading test case 'Verify Contact is saved and New Contact creation page Opens on clicking Save & New Button'
+2020-08-25 13:05:10,009 DEBUG - Creating test case Verify Contact is saved and New Contact creation page Opens on clicking Save & New Button
+2020-08-25 13:05:13,469 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:13,473 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:13,479 DEBUG - Loading keyword 'SelectContactRecordType' in app 'Classic'
+2020-08-25 13:05:13,482 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:13,486 DEBUG - Loading keyword 'EnterContactMandatoryDetails' in app 'Classic'
+2020-08-25 13:05:13,490 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:13,494 DEBUG - Loading keyword 'SaveAndNewContact' in app 'Classic'
+2020-08-25 13:05:13,497 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:13,611 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:13,614 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:24,531  INFO - Changing log level
+2020-08-25 13:05:24,540  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:24,747 DEBUG - Loading test case 'Verify user is able to edit contact'
+2020-08-25 13:05:26,390 DEBUG - Creating test case Verify user is able to edit contact
+2020-08-25 13:05:29,715 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:29,718 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:29,724 DEBUG - Loading keyword 'EditContact' in app 'Classic'
+2020-08-25 13:05:29,727 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:29,756 DEBUG - Loading keyword 'SaveContactDetails' in app 'Classic'
+2020-08-25 13:05:29,759 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:29,763 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:29,766 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,076  INFO - Changing log level
+2020-08-25 13:05:34,077  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,078 DEBUG - Loading test case 'Verify Contact is saved and New Contact creation page Opens on clicking Save & New Button while editing an Contact'
+2020-08-25 13:05:34,079 DEBUG - Creating test case Verify Contact is saved and New Contact creation page Opens on clicking Save & New Button while editing an Contact
+2020-08-25 13:05:34,114 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:34,115 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,115 DEBUG - Loading keyword 'EditContact' in app 'Classic'
+2020-08-25 13:05:34,115 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,115 DEBUG - Loading keyword 'SaveAndNewContact' in app 'Classic'
+2020-08-25 13:05:34,115 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,116 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:34,116 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,117  INFO - Changing log level
+2020-08-25 13:05:34,117  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,118 DEBUG - Loading test case 'Verify the User is able to Create a New Opportunity'
+2020-08-25 13:05:34,118 DEBUG - Creating test case Verify the User is able to Create a New Opportunity
+2020-08-25 13:05:34,127 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:34,127 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,127 DEBUG - Loading keyword 'SelectOpportunitiesRecordType' in app 'Classic'
+2020-08-25 13:05:34,128 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,235 DEBUG - Loading keyword 'EnterOpportunitiesMandatoryDetails' in app 'Classic'
+2020-08-25 13:05:34,237 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,260 DEBUG - Loading keyword 'SaveOpportunitiesDetails' in app 'Classic'
+2020-08-25 13:05:34,261 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,281 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:34,281 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,282  INFO - Changing log level
+2020-08-25 13:05:34,282  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,283 DEBUG - Loading test case 'Verify the User is able to Edit the Existing Opportunity'
+2020-08-25 13:05:34,283 DEBUG - Creating test case Verify the User is able to Edit the Existing Opportunity
+2020-08-25 13:05:34,291 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:34,291 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,291 DEBUG - Loading keyword 'EditOpportunity' in app 'Classic'
+2020-08-25 13:05:34,291 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,304 DEBUG - Loading keyword 'SaveEditedOpportunity' in app 'Classic'
+2020-08-25 13:05:34,304 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,315 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:34,315 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,325  INFO - Changing log level
+2020-08-25 13:05:34,325  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,325 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-08-25 13:05:34,326 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-08-25 13:05:34,342 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:34,342 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,342 DEBUG - Loading keyword 'AddQuoteToOpportunity' in app 'Classic'
+2020-08-25 13:05:34,342 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,359 DEBUG - Loading keyword 'SelectQuoteRecordType' in app 'Classic'
+2020-08-25 13:05:34,359 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,367 DEBUG - Loading keyword 'EnterQuoteMandatoryDetails' in app 'Classic'
+2020-08-25 13:05:34,367 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,381 DEBUG - Loading keyword 'SaveQuoteDetails' in app 'Classic'
+2020-08-25 13:05:34,381 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,384 DEBUG - Loading keyword 'NavigateToEditLineItemsPage' in app 'Classic'
+2020-08-25 13:05:34,384 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,392 DEBUG - Loading keyword 'SearchAndAddOneHardwareProduct' in app 'Classic'
+2020-08-25 13:05:34,393 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,404 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:34,404 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,405  INFO - Changing log level
+2020-08-25 13:05:34,405  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,405 DEBUG - Loading test case 'Verify  the user is able to  Edit the Existing Quote'
+2020-08-25 13:05:34,405 DEBUG - Creating test case Verify  the user is able to  Edit the Existing Quote
+2020-08-25 13:05:34,410 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 13:05:34,410 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,410 DEBUG - Loading keyword 'EditQuoteAddedToOpportunity' in app 'Classic'
+2020-08-25 13:05:34,410 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,421 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 13:05:34,422 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 13:05:34,427  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-08-25 13:05:34,427  INFO - Dependencies OK, running test.
+2020-08-25 13:05:34,428  INFO - Changing log level
+2020-08-25 13:05:34,428  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,428  INFO - Changing log level
+2020-08-25 13:05:34,428  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,442  INFO - Loading test data for Verify cancellation of Account creation
+2020-08-25 13:05:34,461  INFO - Changing log level
+2020-08-25 13:05:34,462  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 13:05:34,462  INFO - Verify cancellation of Account creation run #1
+2020-08-25 13:05:34,462 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-25 13:05:34,462  INFO - Initializing keyword LoginToApplication
+2020-08-25 13:05:34,462  INFO - Executing keyword LoginToApplication
+2020-08-25 13:05:34,464 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-25 13:05:34,465 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-25 13:05:34,515 DEBUG - Args: {Browser=Chrome}
+2020-08-25 13:05:34,515  INFO - Initializing keyword Launch
+2020-08-25 13:05:34,525  INFO - Executing keyword Launch
+2020-08-25 13:05:41,459  INFO - Cleaning up keyword Launch
+2020-08-25 13:05:41,460  INFO - Keyword Launch complete.

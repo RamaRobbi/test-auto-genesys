@@ -1,0 +1,45 @@
+2020-10-25 23:49:34,211  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 23:49:34,215  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 23:49:34,425  INFO - Changing log level
+2020-10-25 23:49:34,425  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:49:34,425 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 23:49:34,427 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 23:49:34,438 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 23:49:34,442 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:49:34,451 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-25 23:49:34,451 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:49:34,461  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 23:49:34,461  INFO - Dependencies OK, running test.
+2020-10-25 23:49:34,461  INFO - Changing log level
+2020-10-25 23:49:34,461  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:49:34,462  INFO - Changing log level
+2020-10-25 23:49:34,462  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:49:34,475  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 23:49:34,491  INFO - Changing log level
+2020-10-25 23:49:34,491  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:49:34,492  INFO - Verify Creation of New Account run #1
+2020-10-25 23:49:34,492 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 23:49:34,492  INFO - Initializing keyword LoginToApplication
+2020-10-25 23:49:34,493  INFO - Executing keyword LoginToApplication
+2020-10-25 23:49:34,494 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 23:49:34,495 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 23:49:34,500 DEBUG - Args: {Browser=Chrome}
+2020-10-25 23:49:34,501  INFO - Initializing keyword Launch
+2020-10-25 23:49:34,501  INFO - Executing keyword Launch
+2020-10-25 23:49:42,400  INFO - Cleaning up keyword Launch
+2020-10-25 23:49:42,400  INFO - Keyword Launch complete.
+2020-10-25 23:50:00,568  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 23:50:00,568  INFO - Keyword LoginToApplication complete.
+2020-10-25 23:50:01,178 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 23:50:01,703 DEBUG - <a href="screenshots/shot_2020-10-25_23h50m1s178ms.jpg">Screen Shot</a>
+2020-10-25 23:50:01,704 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 23:50:01,704  INFO - Initializing keyword SaveAccountDetails
+2020-10-25 23:50:01,704  INFO - Executing keyword SaveAccountDetails
+2020-10-25 23:50:13,700  WARN - Keyword SaveAccountDetails execution fail: State/Province is not same as entered
+2020-10-25 23:50:13,701  INFO - Cleaning up keyword SaveAccountDetails
+2020-10-25 23:50:13,701  INFO - Keyword SaveAccountDetails complete.
+2020-10-25 23:50:14,493 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 23:50:14,928 DEBUG - <a href="screenshots/shot_2020-10-25_23h50m14s493ms.jpg">Screen Shot</a>
+2020-10-25 23:50:14,930 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 23:50:14,953  INFO - Verify Creation of New Account completed.
+2020-10-25 23:50:16,598  INFO - Test Failed
