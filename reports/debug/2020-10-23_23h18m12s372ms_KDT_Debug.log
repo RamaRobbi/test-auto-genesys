@@ -1,0 +1,43 @@
+2020-10-23 23:18:22,260  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 23:18:22,429  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 23:18:22,743  INFO - Changing log level
+2020-10-23 23:18:22,744  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 23:18:22,744 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 23:18:22,746 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 23:18:22,758 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 23:18:22,790 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 23:18:22,803 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-23 23:18:22,803 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 23:18:22,813  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 23:18:22,813  INFO - Dependencies OK, running test.
+2020-10-23 23:18:22,813  INFO - Changing log level
+2020-10-23 23:18:22,813  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 23:18:22,813  INFO - Changing log level
+2020-10-23 23:18:22,814  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 23:18:22,844  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 23:18:22,865  INFO - Changing log level
+2020-10-23 23:18:22,865  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 23:18:22,865  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 23:18:22,865 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 23:18:22,865  INFO - Initializing keyword LoginToApplication
+2020-10-23 23:18:22,865  INFO - Executing keyword LoginToApplication
+2020-10-23 23:18:22,867 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 23:18:22,867 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 23:18:22,873 DEBUG - Args: {Browser=Chrome}
+2020-10-23 23:18:22,874  INFO - Initializing keyword Launch
+2020-10-23 23:18:22,874  INFO - Executing keyword Launch
+2020-10-23 23:18:30,224  INFO - Cleaning up keyword Launch
+2020-10-23 23:18:30,225  INFO - Keyword Launch complete.
+2020-10-23 23:18:45,801  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 23:18:45,802  INFO - Keyword LoginToApplication complete.
+2020-10-23 23:18:46,204 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 23:18:46,499 DEBUG - <a href="screenshots/shot_2020-10-23_23h18m46s204ms.jpg">Screen Shot</a>
+2020-10-23 23:18:46,500 DEBUG - Args: {WrapperSubProducts=PureCloud 2 User|PureCloud Communicate User|PureCloud Collaborate User|PureCloud Communicate Stand-alone Phone|PureCloud for Wallboard Device Charge, HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30|100, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-23 23:18:46,500  INFO - Initializing keyword ConfigureProducts
+2020-10-23 23:18:46,500  INFO - Executing keyword ConfigureProducts
+2020-10-23 23:23:46,514  INFO - Cleaning up keyword ConfigureProducts
+2020-10-23 23:23:46,515  INFO - Keyword ConfigureProducts complete.
+2020-10-23 23:23:47,147 DEBUG - Arguments: {WrapperSubProducts=PureCloud 2 User|PureCloud Communicate User|PureCloud Collaborate User|PureCloud Communicate Stand-alone Phone|PureCloud for Wallboard Device Charge, HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30|100, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-23 23:23:47,453 DEBUG - <a href="screenshots/shot_2020-10-23_23h23m47s148ms.jpg">Screen Shot</a>
+2020-10-23 23:23:47,463  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-23 23:23:49,442  INFO - Test Passed

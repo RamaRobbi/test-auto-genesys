@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Automation Test Log</title>
+<style type='text/css'>
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+th a {color: #FFFFFF;}
+.open-show {display: table-row;}
+.open-hide, .close-hide {display: none;}
+.tog-off a:before {content:'[+]';}
+.tog-on a:before {content:'[-]';}
+.tog-off {font-size: x-large; text-align: center;}
+.tog-on {font-size: x-large; text-align: center;}
+</style>
+<script>
+function getClassList(elt){
+var classes=elt.className;
+var ret=new Object();
+ret.elt=elt;
+ret.classList=classes.split(' ');
+ret.contains=function(cls){
+return this.classList.indexOf(cls)>=0;};
+ret.remove=function(cls){
+var newClassList=[];
+while(this.classList.length>0){
+var tmp=this.classList.pop();
+if(tmp!=cls)
+newClassList.push(tmp);}
+this.classList=newClassList;
+this.elt.className=this.classList.join(' ');};
+ret.add=function(cls){
+this.classList.push(cls);
+this.elt.className=this.classList.join(' ');};
+ret.toggle=function(cls){
+if(this.contains(cls))
+this.remove(cls);
+else
+this.add(cls);};
+ret.length=ret.classList.length;
+ret.item=function(i) {
+return this.classList[i];};
+return ret;}
+function tog(cls){
+var rows=document.getElementsByClassName(cls);
+for(var r=0;r<rows.length;++r){
+var row=rows[r];
+var clslist = getClassList(row);
+if(row.getAttribute('data-thisclass')==cls){
+clslist.toggle('open-show');
+clslist.toggle('close-hide');}
+else{
+if(clslist.contains('open-show')){
+clslist.remove('open-show');
+clslist.add('open-hide');}
+else if(clslist.contains('open-hide')){
+var disp=true;
+for(var i=0;i<clslist.length;i++){
+var item=document.getElementById(clslist.item(i));
+if(getClassList(item).contains('close-hide')){
+disp=false;
+break;}}
+if(disp){
+clslist.remove('open-hide');
+clslist.add('open-show');}}}}}
+function openAll(){
+var closed=document.getElementsByClassName('tog-off');
+while(closed.length>0){
+closed[0].firstElementChild.click();}}
+function closeAll(){
+openAll();
+var open=document.getElementsByClassName('tog-on');
+while(open.length>0){
+open[open.length-1].firstElementChild.click();}}
+window.onload = function(){
+var close=document.getElementsByClassName('close-hide-temp');
+while(close.length>0){
+clslist=getClassList(close[0]);
+clslist.toggle('close-hide-temp');
+clslist.toggle('close-hide');}
+var togs=document.getElementsByClassName('tog-off-temp');
+while(togs.length>0){
+var elts=document.getElementsByClassName(togs[0].id);
+var clslist=getClassList(togs[0]);
+clslist.toggle('tog-off-temp');
+if(elts.length>0){
+clslist.toggle('tog-off');}}};
+</script>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<span id='open-hide'></span><span id='open-show'></span><span id='close-hide'></span>
+<hr size="1" noshade>
+Log session start time Fri Oct 23 23:26:07 IST 2020<div style='float: right;'>v0</div><br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Open <a onclick='openAll()' href='#'>all</a><br />Close <a onclick='closeAll()' href='#'>all</a></th><th colspan="2">Test Scenario</th><th>Test Case </th><th>Keywords / Test Steps</th><th>Error Message</th><th>Result</th><th>Comments</th>
+</tr>
+<tr id='tf0'>
+<td>Started: 2020/10/23 23:26:11.992<br>Run by: QUALITEST\ramanamma.robbi</td>
+<td class='tog-off-temp' id='tf0'><a onclick="tog('tf0');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#tf0'></a></td>
+<td colspan="2">Test File : CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly</td><td colspan="3"></td><td></td><td>Test started.</td></tr>
+<tr class="tf0 close-hide-temp" data-thisclass='tf0' id='td0' >
+<td>Step: 00:00:00.016<BR>Total: 00:00:00.016</td>
+<td class='tog-off-temp' id='td0'><a onclick="tog('td0');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#td0'></a></td>
+<td colspan="2" bgcolor=#CCCCCC>Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote</td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC>[LoginToApplication, ConfigureProducts]</td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC>STARTED</td><td bgcolor=#CCCCCC></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts1' >
+<td>Step: 00:00:23.756<BR>Total: 00:00:23.772</td>
+<td class='tog-off-temp' id='ts1'><a onclick="tog('ts1');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts1'></a></td>
+<td colspan="2">Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote</td><td>TC015_CreateNewQuoteForOpportunity1</td><td>LoginToApplication</td><td></td><td bgcolor=#00FF00>PASS</td><td>User is in Salesforce CPQ Page.</td></tr>
+<tr class="tf0 td0 ts1 close-hide-temp" data-thisclass='ts1' >
+<td>Step: 00:00:01.139<BR>Total: 00:00:24.911</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}</font></td></tr>
+<tr class="tf0 td0 ts1 close-hide-temp" data-thisclass='ts1' >
+<td>Step: 00:00:00.316<BR>Total: 00:00:25.227</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-10-23_23h26m36s903ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 td0 close-hide-temp" data-thisclass='td0' id='ts2' >
+<td>Step: 00:00:38.424<BR>Total: 00:01:03.651</td>
+<td class='tog-off-temp' id='ts2'><a onclick="tog('ts2');getClassList(this.parentNode).toggle('tog-on');getClassList(this.parentNode).toggle('tog-off');" href='#ts2'></a></td>
+<td colspan="2">Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote</td><td>TC015_CreateNewQuoteForOpportunity1</td><td>ConfigureProducts</td><td>Not able to enter on an element having xpath - <b>//span[text()='PureCloud 2 User']/../..//following-sibling::div[@field='SBQQ__Quantity__c']//input</b><br>no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='PureCloud 2 User']/../..//following-sibling::div[@field='SBQQ__Quantity__c']//input"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir10616_99241316}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:63201}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: da23aae82d76aece525dc80411d7bf22
+*** Element info: {Using=xpath, value=//span[text()='PureCloud 2 User']/../..//following-sibling::div[@field='SBQQ__Quantity__c']//input}</td><td bgcolor=#FF0000>FAIL</td><td> - <a href="screenshots/shot_2020-10-23_23h27m15s327ms.jpg">Screen Shot</a></td></tr>
+<tr class="tf0 td0 ts2 close-hide-temp" data-thisclass='ts2' >
+<td>Step: 00:00:00.326<BR>Total: 00:01:03.977</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1">Arguments: {WrapperSubProducts=PureCloud 2 User|PureCloud Communicate User|PureCloud Collaborate User|PureCloud Communicate Stand-alone Phone|PureCloud for Wallboard Device Charge, HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30|100, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}</font></td></tr>
+<tr class="tf0 td0 ts2 close-hide-temp" data-thisclass='ts2' >
+<td>Step: 00:00:00.309<BR>Total: 00:01:04.286</td>
+<td></td>
+<td colspan="3"></td><td><font color="#4169E1">DEBUG</font></td><td colspan="3"><font color="#4169E1"><a href="screenshots/shot_2020-10-23_23h27m15s969ms.jpg">Screen Shot</a></font></td></tr>
+<tr class="tf0 close-hide-temp" data-thisclass='tf0' id='~td0' >
+<td>Step: 00:00:00.001<BR>Total: 00:01:04.287</td>
+<td></td>
+<td colspan="2" bgcolor=#CCCCCC>Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote</td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC></td><td bgcolor=#CCCCCC>STOPPED</td><td bgcolor=#CCCCCC>Success: 1/2 (50% ) <br>Warnings: 0/2<br>Failures: 1/2 (50% ) <br>Skipped: 0</td></tr>
+<tr id='~tf0'>>
+<td>Step: 00:00:01.429<BR>Total: 00:01:05.716</td>
+<td></td>
+<td colspan="2">CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly</td><td colspan="3"><td bgcolor=#FF0000>FAIL</td><td>Success: 0/1<br>Failures: 1/1<br>Skipped: 0/1</td></tr>
+<td>Step: 00:00:00.000<BR>Total: 00:01:05.716</td>
+<td></td>
+<html><head><style>table,th,tr, td {  border: 1px solid black;text-align: center;}</style></head><body><table align="center" border= "3"><tr><th colspan ='5'<text-align: center;><font size=" "3" ">SUMMARY</th></tr><tr><td style=width:50%><font size=" "3" ">Total Test Scenarios</td><td><font size=" "3" ">1</td></tr></tr><tr><td style=width:50%><font size=" "3" ">Success </td><td><font size=" "3" ">0</td></tr></tr><tr><td style=width:50%><font size=" "3" ">Failed </td><td><font size=" "3" ">1</td></tr></tr><tr><td style=width:50%><font size=" "3" ">Skipped </td><td><font size=" "3" ">0</td></tr></table></body></html></tr>
+</table>
+<br>
+</body></html>

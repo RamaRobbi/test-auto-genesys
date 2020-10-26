@@ -1,0 +1,36 @@
+2020-10-25 16:25:20,600  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 16:25:20,611  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 16:25:20,880  INFO - Changing log level
+2020-10-25 16:25:20,880  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:25:20,881 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-10-25 16:25:20,903 DEBUG - Creating test case Verify cancellation of Account creation
+2020-10-25 16:25:20,952 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 16:25:20,960 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:25:20,981 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 16:25:20,982 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:25:20,984 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 16:25:20,985 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:25:20,987 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Lightning'
+2020-10-25 16:25:20,987 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:25:20,989 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 16:25:20,990 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:25:21,019  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-10-25 16:25:21,019  INFO - Dependencies OK, running test.
+2020-10-25 16:25:21,020  INFO - Changing log level
+2020-10-25 16:25:21,020  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:25:21,020  INFO - Changing log level
+2020-10-25 16:25:21,021  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:25:21,052  INFO - Loading test data for Verify cancellation of Account creation
+2020-10-25 16:25:21,085  INFO - Changing log level
+2020-10-25 16:25:21,086  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:25:21,086  INFO - Verify cancellation of Account creation run #1
+2020-10-25 16:25:21,087 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 16:25:21,087  INFO - Initializing keyword LoginToApplication
+2020-10-25 16:25:21,087  INFO - Executing keyword LoginToApplication
+2020-10-25 16:25:21,089 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 16:25:21,090 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 16:25:21,119 DEBUG - Args: {Browser=Chrome}
+2020-10-25 16:25:21,120  INFO - Initializing keyword Launch
+2020-10-25 16:25:21,120  INFO - Executing keyword Launch
+2020-10-25 16:25:29,976  INFO - Cleaning up keyword Launch
+2020-10-25 16:25:29,976  INFO - Keyword Launch complete.

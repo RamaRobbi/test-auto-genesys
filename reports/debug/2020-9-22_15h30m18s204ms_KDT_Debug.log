@@ -1,0 +1,37 @@
+2020-09-22 15:30:23,900  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-09-22 15:30:23,920  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-09-22 15:30:24,393  INFO - Changing log level
+2020-09-22 15:30:24,393  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:30:24,394 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-09-22 15:30:24,410 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-22 15:30:24,455 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-09-22 15:30:24,506 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 15:30:24,543 DEBUG - Loading keyword 'SearchAndAddOneHardwareProduct' in app 'Classic'
+2020-09-22 15:30:24,543 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 15:30:24,654  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-09-22 15:30:24,655  INFO - Dependencies OK, running test.
+2020-09-22 15:30:24,655  INFO - Changing log level
+2020-09-22 15:30:24,655  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:30:24,655  INFO - Changing log level
+2020-09-22 15:30:24,655  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:30:24,694  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-09-22 15:30:24,713  INFO - Changing log level
+2020-09-22 15:30:24,714  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 15:30:24,714  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-09-22 15:30:24,714 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 15:30:24,714  INFO - Initializing keyword LoginToApplication
+2020-09-22 15:30:24,715  INFO - Executing keyword LoginToApplication
+2020-09-22 15:30:24,716 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-09-22 15:30:24,717 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-09-22 15:30:24,770 DEBUG - Args: {Browser=Chrome}
+2020-09-22 15:30:24,770  INFO - Initializing keyword Launch
+2020-09-22 15:30:24,770  INFO - Executing keyword Launch
+2020-09-22 15:30:33,843  INFO - Cleaning up keyword Launch
+2020-09-22 15:30:33,843  INFO - Keyword Launch complete.
+2020-09-22 15:30:51,015  INFO - Cleaning up keyword LoginToApplication
+2020-09-22 15:30:51,015  INFO - Keyword LoginToApplication complete.
+2020-09-22 15:30:51,350 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 15:30:51,793 DEBUG - <a href="screenshots/shot_2020-9-22_15h30m51s350ms.jpg">Screen Shot</a>
+2020-09-22 15:30:51,794 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00|2U 15" Rack Shelf@5.00, HardwareProd1MandateFieldValues=12||2, QuoteFieldValues=Monthly|2 Years| 9/9/2020|Test|New Subscription|12|9/9/2020|Annual M2M|Net 30|Yes|Yes|Test}
+2020-09-22 15:30:51,794  INFO - Initializing keyword SearchAndAddOneHardwareProduct
+2020-09-22 15:30:51,794  INFO - Executing keyword SearchAndAddOneHardwareProduct

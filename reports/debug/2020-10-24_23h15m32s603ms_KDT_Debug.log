@@ -1,0 +1,60 @@
+2020-10-24 23:15:43,429  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 23:15:44,462  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 23:15:51,855  INFO - Changing log level
+2020-10-24 23:15:51,855  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:15:51,856 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-24 23:15:53,790 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:15:54,862 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 23:15:54,866 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:15:55,774 DEBUG - Loading keyword 'EnterQuoteMandatoryDetailsForRAMP' in app 'Classic'
+2020-10-24 23:15:55,774 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:15:55,775 DEBUG - Loading keyword 'SearchAndAddProducts' in app 'Classic'
+2020-10-24 23:15:55,775 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:15:55,776 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-24 23:15:55,777 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:15:55,778 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-24 23:15:55,778 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:15:55,780 DEBUG - Loading keyword 'EnterValuesToTheProductsForRamp' in app 'Classic'
+2020-10-24 23:15:55,780 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:15:55,784  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-24 23:15:55,784  INFO - Dependencies OK, running test.
+2020-10-24 23:15:55,785  INFO - Changing log level
+2020-10-24 23:15:55,785  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:15:55,785  INFO - Changing log level
+2020-10-24 23:15:55,785  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:15:57,016  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:15:57,164  INFO - Changing log level
+2020-10-24 23:15:57,164  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:15:57,165  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-24 23:15:57,165 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:15:57,165  INFO - Initializing keyword LoginToApplication
+2020-10-24 23:15:57,166  INFO - Executing keyword LoginToApplication
+2020-10-24 23:15:57,167 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 23:15:57,682 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 23:15:59,282 DEBUG - Args: {Browser=Chrome}
+2020-10-24 23:15:59,283  INFO - Initializing keyword Launch
+2020-10-24 23:15:59,283  INFO - Executing keyword Launch
+2020-10-24 23:16:16,510  INFO - Cleaning up keyword Launch
+2020-10-24 23:16:16,510  INFO - Keyword Launch complete.
+2020-10-24 23:16:35,556  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 23:16:35,557  INFO - Keyword LoginToApplication complete.
+2020-10-24 23:16:36,260 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:16:37,348 DEBUG - <a href="screenshots/shot_2020-10-24_23h16m36s261ms.jpg">Screen Shot</a>
+2020-10-24 23:16:37,349 DEBUG - Args: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:16:37,349  INFO - Initializing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:16:37,350  INFO - Executing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:16:44,956  WARN - Keyword EnterQuoteMandatoryDetailsForRAMP execution fail: Not able to click on an element having xpath - <b>//label[text()='PO Date']/../following-sibling::td[1]//input</b>
+2020-10-24 23:16:44,969  WARN - element click intercepted: Element <input id="00N11000009beYE" name="00N11000009beYE" onfocus="DatePicker.pickDate(false, '00N11000009beYE', false);" size="12" tabindex="79" type="text"> is not clickable at point (1216, 560). Other element would receive the click: <div class="buttonBar">...</div>
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir20468_580576241}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54388}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 691185bb1329333e577fb74367d636db
+2020-10-24 23:16:44,969  INFO - Cleaning up keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:16:44,970  INFO - Keyword EnterQuoteMandatoryDetailsForRAMP complete.
+2020-10-24 23:16:45,606 DEBUG - Arguments: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:16:45,886 DEBUG - <a href="screenshots/shot_2020-10-24_23h16m45s607ms.jpg">Screen Shot</a>
+2020-10-24 23:16:45,887 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-10-24 23:16:45,933  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-24 23:16:48,491  INFO - Test Failed

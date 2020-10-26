@@ -1,0 +1,61 @@
+2020-08-26 16:13:24,920  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-26 16:13:24,924  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-26 16:13:25,201  INFO - Changing log level
+2020-08-26 16:13:25,202  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:13:25,203 DEBUG - Loading test case 'Verify user is able to edit account'
+2020-08-26 16:13:25,234 DEBUG - Creating test case Verify user is able to edit account
+2020-08-26 16:13:25,268 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-26 16:13:25,338 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:13:25,441 DEBUG - Loading keyword 'EditAccount' in app 'Classic'
+2020-08-26 16:13:25,442 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:13:25,451 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-26 16:13:25,451 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:13:25,463 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-26 16:13:25,463 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:13:25,499  INFO - Checking Verify user is able to edit account's dependencies.
+2020-08-26 16:13:25,501  INFO - Dependencies OK, running test.
+2020-08-26 16:13:25,504  INFO - Changing log level
+2020-08-26 16:13:25,505  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:13:25,505  INFO - Changing log level
+2020-08-26 16:13:25,505  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:13:25,715  INFO - Loading test data for Verify user is able to edit account
+2020-08-26 16:13:25,759  INFO - Changing log level
+2020-08-26 16:13:25,760  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:13:25,760  INFO - Verify user is able to edit account run #1
+2020-08-26 16:13:25,760 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-26 16:13:25,761  INFO - Initializing keyword LoginToApplication
+2020-08-26 16:13:25,761  INFO - Executing keyword LoginToApplication
+2020-08-26 16:13:25,762 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-26 16:13:25,763 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-26 16:13:25,845 DEBUG - Args: {Browser=Chrome}
+2020-08-26 16:13:25,846  INFO - Initializing keyword Launch
+2020-08-26 16:13:25,855  INFO - Executing keyword Launch
+2020-08-26 16:13:32,847  INFO - Cleaning up keyword Launch
+2020-08-26 16:13:32,848  INFO - Keyword Launch complete.
+2020-08-26 16:13:50,320  INFO - Cleaning up keyword LoginToApplication
+2020-08-26 16:13:50,320  INFO - Keyword LoginToApplication complete.
+2020-08-26 16:13:50,763 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-26 16:13:52,311 DEBUG - <a href="screenshots/shot_2020-8-26_16h13m50s765ms.jpg">Screen Shot</a>
+2020-08-26 16:13:52,313 DEBUG - Args: {AccountName=ACCT_12345}
+2020-08-26 16:13:52,313  INFO - Initializing keyword EditAccount
+2020-08-26 16:13:52,314  INFO - Executing keyword EditAccount
+2020-08-26 16:13:57,915  INFO - Cleaning up keyword EditAccount
+2020-08-26 16:13:57,915  INFO - Keyword EditAccount complete.
+2020-08-26 16:13:58,368 DEBUG - Arguments: {AccountName=ACCT_12345}
+2020-08-26 16:13:58,786 DEBUG - <a href="screenshots/shot_2020-8-26_16h13m58s369ms.jpg">Screen Shot</a>
+2020-08-26 16:13:58,788 DEBUG - Args: {}
+2020-08-26 16:13:58,789  INFO - Initializing keyword SaveAccountDetails
+2020-08-26 16:13:58,791  INFO - Executing keyword SaveAccountDetails
+2020-08-26 16:14:05,652  INFO - Cleaning up keyword SaveAccountDetails
+2020-08-26 16:14:05,652  INFO - Keyword SaveAccountDetails complete.
+2020-08-26 16:14:06,243 DEBUG - Arguments: {}
+2020-08-26 16:14:06,640 DEBUG - <a href="screenshots/shot_2020-8-26_16h14m6s245ms.jpg">Screen Shot</a>
+2020-08-26 16:14:06,640 DEBUG - Args: {}
+2020-08-26 16:14:06,640  INFO - Initializing keyword LogoutOfApplication
+2020-08-26 16:14:06,641  INFO - Executing keyword LogoutOfApplication
+2020-08-26 16:14:09,217  INFO - Cleaning up keyword LogoutOfApplication
+2020-08-26 16:14:09,217  INFO - Keyword LogoutOfApplication complete.
+2020-08-26 16:14:09,567 DEBUG - Arguments: {}
+2020-08-26 16:14:10,012 DEBUG - <a href="screenshots/shot_2020-8-26_16h14m9s568ms.jpg">Screen Shot</a>
+2020-08-26 16:14:10,035  INFO - Verify user is able to edit account completed.
+2020-08-26 16:14:11,686  INFO - Test Passed

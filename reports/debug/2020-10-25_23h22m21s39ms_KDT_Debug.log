@@ -1,0 +1,114 @@
+2020-10-25 23:22:25,920  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 23:22:25,924  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 23:22:26,139  INFO - Changing log level
+2020-10-25 23:22:26,139  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:22:26,139 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 23:22:26,143 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 23:22:26,162 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 23:22:26,167 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:22:26,176 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 23:22:26,176 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:22:26,177 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 23:22:26,178 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:22:26,178 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Lightning'
+2020-10-25 23:22:26,178 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:22:26,179 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-25 23:22:26,179 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:22:26,181 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 23:22:26,182 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:22:26,190  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 23:22:26,190  INFO - Dependencies OK, running test.
+2020-10-25 23:22:26,190  INFO - Changing log level
+2020-10-25 23:22:26,190  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:22:26,191  INFO - Changing log level
+2020-10-25 23:22:26,191  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:22:26,203  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 23:22:26,228  INFO - Changing log level
+2020-10-25 23:22:26,229  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:22:26,229  INFO - Verify Creation of New Account run #1
+2020-10-25 23:22:26,230 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 23:22:26,230  INFO - Initializing keyword LoginToApplication
+2020-10-25 23:22:26,230  INFO - Executing keyword LoginToApplication
+2020-10-25 23:22:26,231 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 23:22:26,232 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 23:22:26,238 DEBUG - Args: {Browser=Chrome}
+2020-10-25 23:22:26,238  INFO - Initializing keyword Launch
+2020-10-25 23:22:26,239  INFO - Executing keyword Launch
+2020-10-25 23:22:34,954  INFO - Cleaning up keyword Launch
+2020-10-25 23:22:34,955  INFO - Keyword Launch complete.
+2020-10-25 23:22:59,563  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 23:22:59,564  INFO - Keyword LoginToApplication complete.
+2020-10-25 23:22:59,901 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 23:23:00,709 DEBUG - <a href="screenshots/shot_2020-10-25_23h22m59s901ms.jpg">Screen Shot</a>
+2020-10-25 23:23:00,710 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-10-25 23:23:00,710  INFO - Initializing keyword SelectAccountRecordType
+2020-10-25 23:23:00,710  INFO - Executing keyword SelectAccountRecordType
+2020-10-25 23:23:18,404  INFO - Cleaning up keyword SelectAccountRecordType
+2020-10-25 23:23:18,405  INFO - Keyword SelectAccountRecordType complete.
+2020-10-25 23:23:18,688 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-10-25 23:23:19,014 DEBUG - <a href="screenshots/shot_2020-10-25_23h23m18s688ms.jpg">Screen Shot</a>
+2020-10-25 23:23:19,014 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 23:23:19,014  INFO - Initializing keyword AccountSearchByNameAndClickNew
+2020-10-25 23:23:19,015  INFO - Executing keyword AccountSearchByNameAndClickNew
+2020-10-25 23:23:27,774  INFO - Cleaning up keyword AccountSearchByNameAndClickNew
+2020-10-25 23:23:27,774  INFO - Keyword AccountSearchByNameAndClickNew complete.
+2020-10-25 23:23:28,095 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 23:23:28,377 DEBUG - <a href="screenshots/shot_2020-10-25_23h23m28s96ms.jpg">Screen Shot</a>
+2020-10-25 23:23:28,377 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 23:23:28,377  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-10-25 23:23:28,378  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-10-25 23:23:48,276  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-10-25 23:23:48,276  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-10-25 23:23:48,598 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 23:23:48,879 DEBUG - <a href="screenshots/shot_2020-10-25_23h23m48s598ms.jpg">Screen Shot</a>
+2020-10-25 23:23:48,879 DEBUG - Args: {}
+2020-10-25 23:23:48,879  INFO - Initializing keyword SaveAccountDetails
+2020-10-25 23:23:48,879  INFO - Executing keyword SaveAccountDetails
+2020-10-25 23:26:19,199 ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.name: //button[@title='Save'] (tried for 150 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.qualitestgroup.keywords.common.ElementOperation.clickElement(ElementOperation.java:268)
+	at com.qualitestgroup.keywords.lightning.Lightning$SaveAccountDetails.exec(Lightning.java:537)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+Caused by: org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir14736_550576351}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64635}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: c21bb6627634fcd0f7d7c9b198c60711
+*** Element info: {Using=name, value=//button[@title='Save']}
+	at sun.reflect.GeneratedConstructorAccessor53.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByName(RemoteWebDriver.java:489)
+	at org.openqa.selenium.By$ByName.findElements(By.java:295)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 7 more
+
+2020-10-25 23:26:19,200  INFO - Cleaning up keyword SaveAccountDetails
+2020-10-25 23:26:19,200  INFO - Keyword SaveAccountDetails complete.
+2020-10-25 23:26:20,216 DEBUG - Arguments: {}
+2020-10-25 23:26:20,495 DEBUG - <a href="screenshots/shot_2020-10-25_23h26m20s216ms.jpg">Screen Shot</a>
+2020-10-25 23:26:20,495 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 23:26:20,583  INFO - Verify Creation of New Account completed.
+2020-10-25 23:26:32,638  INFO - Test Failed

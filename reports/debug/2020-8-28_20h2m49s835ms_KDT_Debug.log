@@ -1,0 +1,48 @@
+2020-08-28 20:02:55,821  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-28 20:02:55,830  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-08-28 20:02:56,312  INFO - Changing log level
+2020-08-28 20:02:56,312  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 20:02:56,312 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-08-28 20:02:56,315 DEBUG - Creating test case Verify cancellation of Account creation
+2020-08-28 20:02:56,326 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-08-28 20:02:56,331 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,424 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-08-28 20:02:56,424 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,457 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-08-28 20:02:56,457 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,500 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Lightning'
+2020-08-28 20:02:56,501 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,504 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-08-28 20:02:56,505 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,525  INFO - Changing log level
+2020-08-28 20:02:56,526  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 20:02:56,526 DEBUG - Loading test case 'Validation of error message in Accounts page'
+2020-08-28 20:02:56,526 DEBUG - Creating test case Validation of error message in Accounts page
+2020-08-28 20:02:56,586 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-08-28 20:02:56,586 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,587 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-08-28 20:02:56,587 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,587 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-08-28 20:02:56,587 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,588 DEBUG - Loading keyword 'ValidateErrorMessageForNewAccountCreation' in app 'Lightning'
+2020-08-28 20:02:56,588 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,600 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-08-28 20:02:56,600 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-08-28 20:02:56,616  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-08-28 20:02:56,616  INFO - Dependencies OK, running test.
+2020-08-28 20:02:56,616  INFO - Changing log level
+2020-08-28 20:02:56,616  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 20:02:56,616  INFO - Changing log level
+2020-08-28 20:02:56,616  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 20:02:56,687  INFO - Loading test data for Verify cancellation of Account creation
+2020-08-28 20:02:56,697  INFO - Changing log level
+2020-08-28 20:02:56,697  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 20:02:56,697  INFO - Verify cancellation of Account creation run #1
+2020-08-28 20:02:56,698 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-28 20:02:56,698  INFO - Initializing keyword LoginToApplication
+2020-08-28 20:02:56,698  INFO - Executing keyword LoginToApplication
+2020-08-28 20:02:56,710 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-28 20:02:56,711 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-28 20:02:56,717 DEBUG - Args: {Browser=Chrome}
+2020-08-28 20:02:56,717  INFO - Initializing keyword Launch
+2020-08-28 20:02:56,717  INFO - Executing keyword Launch

@@ -1,0 +1,43 @@
+2020-10-24 23:28:55,392  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 23:28:55,397  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 23:28:55,593  INFO - Changing log level
+2020-10-24 23:28:55,593  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:28:55,594 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-24 23:28:55,596 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:28:55,615 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 23:28:55,620 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:28:55,627 DEBUG - Loading keyword 'EnterQuoteMandatoryDetailsForRAMP' in app 'Classic'
+2020-10-24 23:28:55,628 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:28:55,632  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-24 23:28:55,632  INFO - Dependencies OK, running test.
+2020-10-24 23:28:55,632  INFO - Changing log level
+2020-10-24 23:28:55,632  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:28:55,632  INFO - Changing log level
+2020-10-24 23:28:55,633  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:28:55,655  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:28:55,679  INFO - Changing log level
+2020-10-24 23:28:55,680  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:28:55,680  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-24 23:28:55,680 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:28:55,680  INFO - Initializing keyword LoginToApplication
+2020-10-24 23:28:55,681  INFO - Executing keyword LoginToApplication
+2020-10-24 23:28:55,683 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 23:28:55,683 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 23:28:55,690 DEBUG - Args: {Browser=Chrome}
+2020-10-24 23:28:55,691  INFO - Initializing keyword Launch
+2020-10-24 23:28:55,691  INFO - Executing keyword Launch
+2020-10-24 23:29:02,451  INFO - Cleaning up keyword Launch
+2020-10-24 23:29:02,452  INFO - Keyword Launch complete.
+2020-10-24 23:29:18,499  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 23:29:18,500  INFO - Keyword LoginToApplication complete.
+2020-10-24 23:29:18,880 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:29:19,213 DEBUG - <a href="screenshots/shot_2020-10-24_23h29m18s881ms.jpg">Screen Shot</a>
+2020-10-24 23:29:19,214 DEBUG - Args: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:29:19,214  INFO - Initializing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:29:19,214  INFO - Executing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:29:30,782  INFO - Cleaning up keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:29:30,783  INFO - Keyword EnterQuoteMandatoryDetailsForRAMP complete.
+2020-10-24 23:29:31,080 DEBUG - Arguments: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:29:31,388 DEBUG - <a href="screenshots/shot_2020-10-24_23h29m31s80ms.jpg">Screen Shot</a>
+2020-10-24 23:29:31,397  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-24 23:29:32,662  INFO - Test Passed

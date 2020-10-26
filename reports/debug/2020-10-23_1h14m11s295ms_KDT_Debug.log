@@ -1,0 +1,54 @@
+2020-10-23 01:14:16,634  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 01:14:16,649  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 01:14:16,979  INFO - Changing log level
+2020-10-23 01:14:16,980  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:14:16,980 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 01:14:17,015 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 01:14:17,047 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 01:14:17,050 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 01:14:17,059 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-23 01:14:17,059 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 01:14:17,063  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 01:14:17,064  INFO - Dependencies OK, running test.
+2020-10-23 01:14:17,064  INFO - Changing log level
+2020-10-23 01:14:17,064  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:14:17,064  INFO - Changing log level
+2020-10-23 01:14:17,064  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:14:17,103  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 01:14:17,136  INFO - Changing log level
+2020-10-23 01:14:17,136  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:14:17,136  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 01:14:17,137 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 01:14:17,137  INFO - Initializing keyword LoginToApplication
+2020-10-23 01:14:17,137  INFO - Executing keyword LoginToApplication
+2020-10-23 01:14:17,139 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 01:14:17,139 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 01:14:17,197 DEBUG - Args: {Browser=Chrome}
+2020-10-23 01:14:17,197  INFO - Initializing keyword Launch
+2020-10-23 01:14:17,198  INFO - Executing keyword Launch
+2020-10-23 01:14:24,906  INFO - Cleaning up keyword Launch
+2020-10-23 01:14:24,906  INFO - Keyword Launch complete.
+2020-10-23 01:14:41,458  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 01:14:41,459  INFO - Keyword LoginToApplication complete.
+2020-10-23 01:14:41,848 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 01:14:42,185 DEBUG - <a href="screenshots/shot_2020-10-23_1h14m41s849ms.jpg">Screen Shot</a>
+2020-10-23 01:14:42,185 DEBUG - Args: {BundleProduct1=PureCloud 2 User - Wrapper@1.00|PureCloud 2 User - Ramp@1.00}
+2020-10-23 01:14:42,186  INFO - Initializing keyword SearchAndAddWrapperProduct
+2020-10-23 01:14:42,186  INFO - Executing keyword SearchAndAddWrapperProduct
+2020-10-23 01:15:47,653  WARN - Keyword SearchAndAddWrapperProduct execution fail: Not able to click on an element using action class having xpath - <b>//div[contains(@class,'option')]/b[text()='PureCloud 2 User - Wrapper'] </b>
+2020-10-23 01:15:47,655  WARN - no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'option')]/b[text()='PureCloud 2 User - Wrapper'] "}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir11668_1759097291}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:55102}, acceptInsecureCerts=false, browserVersion=86.0.4240.75, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: cf47c5dfe6e153b88a1f22fb80943c8d
+*** Element info: {Using=xpath, value=//div[contains(@class,'option')]/b[text()='PureCloud 2 User - Wrapper'] }
+2020-10-23 01:15:47,655  INFO - Cleaning up keyword SearchAndAddWrapperProduct
+2020-10-23 01:15:47,655  INFO - Keyword SearchAndAddWrapperProduct complete.
+2020-10-23 01:15:48,316 DEBUG - Arguments: {BundleProduct1=PureCloud 2 User - Wrapper@1.00|PureCloud 2 User - Ramp@1.00}
+2020-10-23 01:15:48,640 DEBUG - <a href="screenshots/shot_2020-10-23_1h15m48s316ms.jpg">Screen Shot</a>
+2020-10-23 01:15:48,640 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-10-23 01:15:48,648  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-23 01:15:50,118  INFO - Test Failed

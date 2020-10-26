@@ -1,0 +1,59 @@
+2020-10-25 16:09:30,287  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 16:09:30,292  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 16:09:30,492  INFO - Changing log level
+2020-10-25 16:09:30,493  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:09:30,493 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-10-25 16:09:30,495 DEBUG - Creating test case Verify cancellation of Account creation
+2020-10-25 16:09:30,506 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 16:09:30,514 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:09:30,710 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 16:09:30,710 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:09:30,750 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 16:09:30,750 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:09:30,788 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Lightning'
+2020-10-25 16:09:30,788 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:09:30,830 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 16:09:30,830 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:09:30,905  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-10-25 16:09:30,905  INFO - Dependencies OK, running test.
+2020-10-25 16:09:30,906  INFO - Changing log level
+2020-10-25 16:09:30,906  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:09:30,906  INFO - Changing log level
+2020-10-25 16:09:30,906  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:09:31,679  INFO - Loading test data for Verify cancellation of Account creation
+2020-10-25 16:09:31,701  INFO - Changing log level
+2020-10-25 16:09:31,702  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:09:31,702  INFO - Verify cancellation of Account creation run #1
+2020-10-25 16:09:31,702 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 16:09:31,702  INFO - Initializing keyword LoginToApplication
+2020-10-25 16:09:31,703  INFO - Executing keyword LoginToApplication
+2020-10-25 16:09:31,704 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 16:09:31,704 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 16:09:31,710 DEBUG - Args: {Browser=Chrome}
+2020-10-25 16:09:31,710  INFO - Initializing keyword Launch
+2020-10-25 16:09:31,710  INFO - Executing keyword Launch
+2020-10-25 16:09:42,055  INFO - Cleaning up keyword Launch
+2020-10-25 16:09:42,056  INFO - Keyword Launch complete.
+2020-10-25 16:10:11,497  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 16:10:11,498  INFO - Keyword LoginToApplication complete.
+2020-10-25 16:10:12,108 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 16:10:12,818 DEBUG - <a href="screenshots/shot_2020-10-25_16h10m12s108ms.jpg">Screen Shot</a>
+2020-10-25 16:10:12,818 DEBUG - Args: {RecordType=Consultant Record Type}
+2020-10-25 16:10:12,819  INFO - Initializing keyword SelectAccountRecordType
+2020-10-25 16:10:12,819  INFO - Executing keyword SelectAccountRecordType
+2020-10-25 16:10:40,421  INFO - Cleaning up keyword SelectAccountRecordType
+2020-10-25 16:10:40,421  INFO - Keyword SelectAccountRecordType complete.
+2020-10-25 16:10:40,691 DEBUG - Arguments: {RecordType=Consultant Record Type}
+2020-10-25 16:10:40,959 DEBUG - <a href="screenshots/shot_2020-10-25_16h10m40s692ms.jpg">Screen Shot</a>
+2020-10-25 16:10:40,960 DEBUG - Args: {RecordType=Consultant Record Type, AccountName=Auto_Acct001}
+2020-10-25 16:10:40,960  INFO - Initializing keyword AccountSearchByNameAndClickNew
+2020-10-25 16:10:40,960  INFO - Executing keyword AccountSearchByNameAndClickNew
+2020-10-25 16:13:04,213  WARN - Keyword AccountSearchByNameAndClickNew execution fail: <b>Account Name Text box is not displayed --- Waited for <b>60<> Seconds --- WebElement <b>//span[contains(text(),'fieldName') and not(contains(text(),'Native'))]/parent::label//following-sibling::input<b> is not found 
+
+2020-10-25 16:13:04,213  INFO - Cleaning up keyword AccountSearchByNameAndClickNew
+2020-10-25 16:13:04,214  INFO - Keyword AccountSearchByNameAndClickNew complete.
+2020-10-25 16:13:04,822 DEBUG - Arguments: {RecordType=Consultant Record Type, AccountName=Auto_Acct001}
+2020-10-25 16:13:05,105 DEBUG - <a href="screenshots/shot_2020-10-25_16h13m4s823ms.jpg">Screen Shot</a>
+2020-10-25 16:13:05,105 ERROR - Verify cancellation of Account creation run #1 failed.
+2020-10-25 16:13:05,230  INFO - Verify cancellation of Account creation completed.
+2020-10-25 16:13:09,393  INFO - Test Failed

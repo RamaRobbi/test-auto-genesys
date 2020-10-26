@@ -1,0 +1,37 @@
+2020-10-24 23:55:18,144  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 23:55:18,155  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 23:55:18,503  INFO - Changing log level
+2020-10-24 23:55:18,503  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:55:18,504 DEBUG - Loading test case 'Verify the User is able to Create a New Opportunity'
+2020-10-24 23:55:18,507 DEBUG - Creating test case Verify the User is able to Create a New Opportunity
+2020-10-24 23:55:18,532 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 23:55:18,537 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:55:18,548 DEBUG - Loading keyword 'EnterOpportunitiesMandatoryDetails' in app 'Classic'
+2020-10-24 23:55:18,549 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:55:18,598  INFO - Checking Verify the User is able to Create a New Opportunity's dependencies.
+2020-10-24 23:55:18,598  INFO - Dependencies OK, running test.
+2020-10-24 23:55:18,598  INFO - Changing log level
+2020-10-24 23:55:18,598  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:55:18,598  INFO - Changing log level
+2020-10-24 23:55:18,598  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:55:18,635  INFO - Loading test data for Verify the User is able to Create a New Opportunity
+2020-10-24 23:55:18,658  INFO - Changing log level
+2020-10-24 23:55:18,658  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:55:18,658  INFO - Verify the User is able to Create a New Opportunity run #1
+2020-10-24 23:55:18,659 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:55:18,659  INFO - Initializing keyword LoginToApplication
+2020-10-24 23:55:18,659  INFO - Executing keyword LoginToApplication
+2020-10-24 23:55:18,661 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 23:55:18,662 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 23:55:18,672 DEBUG - Args: {Browser=Chrome}
+2020-10-24 23:55:18,672  INFO - Initializing keyword Launch
+2020-10-24 23:55:18,673  INFO - Executing keyword Launch
+2020-10-24 23:55:25,877  INFO - Cleaning up keyword Launch
+2020-10-24 23:55:25,877  INFO - Keyword Launch complete.
+2020-10-24 23:55:40,828  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 23:55:40,828  INFO - Keyword LoginToApplication complete.
+2020-10-24 23:55:41,191 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:55:41,553 DEBUG - <a href="screenshots/shot_2020-10-24_23h55m41s192ms.jpg">Screen Shot</a>
+2020-10-24 23:55:41,553 DEBUG - Args: {OpportunitiesFieldValues=Auto_Opp|12/31/2021|1.Understand Needs|Automation_|Partner Co-sell|United States|Direct|New logo|PureCloud|Cloud|Customer Dev Bundle|NORTH AMERICA}
+2020-10-24 23:55:41,553  INFO - Initializing keyword EnterOpportunitiesMandatoryDetails
+2020-10-24 23:55:41,554  INFO - Executing keyword EnterOpportunitiesMandatoryDetails

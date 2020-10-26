@@ -1,0 +1,46 @@
+2020-10-23 01:10:44,729  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 01:10:44,732  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 01:10:44,918  INFO - Changing log level
+2020-10-23 01:10:44,919  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:10:44,919 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 01:10:44,921 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 01:10:44,939 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 01:10:44,943 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 01:10:44,953 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-23 01:10:44,953 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 01:10:44,957  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 01:10:44,957  INFO - Dependencies OK, running test.
+2020-10-23 01:10:44,957  INFO - Changing log level
+2020-10-23 01:10:44,957  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:10:44,957  INFO - Changing log level
+2020-10-23 01:10:44,957  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:10:44,981  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 01:10:44,999  INFO - Changing log level
+2020-10-23 01:10:44,999  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 01:10:44,999  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 01:10:45,000 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 01:10:45,000  INFO - Initializing keyword LoginToApplication
+2020-10-23 01:10:45,000  INFO - Executing keyword LoginToApplication
+2020-10-23 01:10:45,002 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 01:10:45,003 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 01:10:45,008 DEBUG - Args: {Browser=Chrome}
+2020-10-23 01:10:45,008  INFO - Initializing keyword Launch
+2020-10-23 01:10:45,008  INFO - Executing keyword Launch
+2020-10-23 01:10:59,953  INFO - Cleaning up keyword Launch
+2020-10-23 01:10:59,954  INFO - Keyword Launch complete.
+2020-10-23 01:11:18,793  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 01:11:18,794  INFO - Keyword LoginToApplication complete.
+2020-10-23 01:11:19,388 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 01:11:19,689 DEBUG - <a href="screenshots/shot_2020-10-23_1h11m19s389ms.jpg">Screen Shot</a>
+2020-10-23 01:11:19,690 DEBUG - Args: {BundleProduct1=PureCloud 2 User - Wrapper@1.00|PureCloud 2 User - Ramp@1.00}
+2020-10-23 01:11:19,690  INFO - Initializing keyword SearchAndAddWrapperProduct
+2020-10-23 01:11:19,691  INFO - Executing keyword SearchAndAddWrapperProduct
+2020-10-23 01:12:18,941  WARN - Keyword SearchAndAddWrapperProduct execution fail: In User is not able to enter text in : <b>Search product Page - 'PureCloud 2 User - Wrapper' -  Textbox ----WebElement <b>//sb-search-bar[@id='headersearch']//input[@id='itemLabel']<b> is not clickable/found 
+
+2020-10-23 01:12:18,942  INFO - Cleaning up keyword SearchAndAddWrapperProduct
+2020-10-23 01:12:18,943  INFO - Keyword SearchAndAddWrapperProduct complete.
+2020-10-23 01:12:19,570 DEBUG - Arguments: {BundleProduct1=PureCloud 2 User - Wrapper@1.00|PureCloud 2 User - Ramp@1.00}
+2020-10-23 01:12:19,905 DEBUG - <a href="screenshots/shot_2020-10-23_1h12m19s570ms.jpg">Screen Shot</a>
+2020-10-23 01:12:19,906 ERROR - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1 failed.
+2020-10-23 01:12:19,993  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote completed.
+2020-10-23 01:12:22,383  INFO - Test Failed

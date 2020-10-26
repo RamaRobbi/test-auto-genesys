@@ -1,0 +1,54 @@
+2020-10-25 23:44:19,772  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 23:44:19,778  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 23:44:19,975  INFO - Changing log level
+2020-10-25 23:44:19,975  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:44:19,976 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 23:44:19,978 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 23:44:19,990 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 23:44:19,994 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:44:20,002 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-25 23:44:20,002 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 23:44:20,011  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 23:44:20,011  INFO - Dependencies OK, running test.
+2020-10-25 23:44:20,011  INFO - Changing log level
+2020-10-25 23:44:20,011  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:44:20,011  INFO - Changing log level
+2020-10-25 23:44:20,011  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:44:20,024  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 23:44:20,041  INFO - Changing log level
+2020-10-25 23:44:20,041  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 23:44:20,041  INFO - Verify Creation of New Account run #1
+2020-10-25 23:44:20,041 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 23:44:20,042  INFO - Initializing keyword LoginToApplication
+2020-10-25 23:44:20,042  INFO - Executing keyword LoginToApplication
+2020-10-25 23:44:20,043 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 23:44:20,044 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 23:44:20,049 DEBUG - Args: {Browser=Chrome}
+2020-10-25 23:44:20,049  INFO - Initializing keyword Launch
+2020-10-25 23:44:20,050  INFO - Executing keyword Launch
+2020-10-25 23:44:27,622  INFO - Cleaning up keyword Launch
+2020-10-25 23:44:27,623  INFO - Keyword Launch complete.
+2020-10-25 23:44:45,150  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 23:44:45,150  INFO - Keyword LoginToApplication complete.
+2020-10-25 23:44:45,634 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 23:44:46,269 DEBUG - <a href="screenshots/shot_2020-10-25_23h44m45s636ms.jpg">Screen Shot</a>
+2020-10-25 23:44:46,271 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 23:44:46,272  INFO - Initializing keyword SaveAccountDetails
+2020-10-25 23:44:46,273  INFO - Executing keyword SaveAccountDetails
+2020-10-25 23:45:07,282  WARN - Keyword SaveAccountDetails execution fail: Not able to get text from an element having xpath - <b>//td[text()='Account Name']/following-sibling::td[1]</b>
+2020-10-25 23:45:07,287  WARN - no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='Account Name']/following-sibling::td[1]"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir3552_2144467269}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50131}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: e055c7a67979a7b8381c185e4cf76521
+*** Element info: {Using=xpath, value=//td[text()='Account Name']/following-sibling::td[1]}
+2020-10-25 23:45:07,287  INFO - Cleaning up keyword SaveAccountDetails
+2020-10-25 23:45:07,288  INFO - Keyword SaveAccountDetails complete.
+2020-10-25 23:45:08,598 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 23:45:08,987 DEBUG - <a href="screenshots/shot_2020-10-25_23h45m8s599ms.jpg">Screen Shot</a>
+2020-10-25 23:45:08,988 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 23:45:09,154  INFO - Verify Creation of New Account completed.
+2020-10-25 23:45:12,278  INFO - Test Failed

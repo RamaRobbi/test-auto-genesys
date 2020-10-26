@@ -1,0 +1,51 @@
+2020-09-22 14:00:46,803  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-09-22 14:00:46,827  INFO - Opening C:\Users\ramanamma.robbi\Desktop\CPQ_Automation_POC_Classic.xls
+2020-09-22 14:00:47,456  INFO - Changing log level
+2020-09-22 14:00:47,456  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:00:47,457 DEBUG - Loading test case 'Verify the user is able to create order for the Quote'
+2020-09-22 14:00:47,479 DEBUG - Creating test case Verify the user is able to create order for the Quote
+2020-09-22 14:00:47,511 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-09-22 14:00:47,522 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 14:00:47,537 DEBUG - Loading keyword 'ValidateOrderLinesInOrderProducts' in app 'Classic'
+2020-09-22 14:00:47,537 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-09-22 14:00:47,543  INFO - Checking Verify the user is able to create order for the Quote's dependencies.
+2020-09-22 14:00:47,543  INFO - Dependencies OK, running test.
+2020-09-22 14:00:47,543  INFO - Changing log level
+2020-09-22 14:00:47,544  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:00:47,544  INFO - Changing log level
+2020-09-22 14:00:47,544  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:00:47,591  INFO - Loading test data for Verify the user is able to create order for the Quote
+2020-09-22 14:00:47,630  INFO - Changing log level
+2020-09-22 14:00:47,632  INFO - Log Level has successfuly changed to: TRACE
+2020-09-22 14:00:47,633  INFO - Verify the user is able to create order for the Quote run #1
+2020-09-22 14:00:47,633 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 14:00:47,634  INFO - Initializing keyword LoginToApplication
+2020-09-22 14:00:47,634  INFO - Executing keyword LoginToApplication
+2020-09-22 14:00:47,636 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-09-22 14:00:47,638 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-09-22 14:00:47,660 DEBUG - Args: {Browser=Chrome}
+2020-09-22 14:00:47,660  INFO - Initializing keyword Launch
+2020-09-22 14:00:47,660  INFO - Executing keyword Launch
+2020-09-22 14:01:00,067  INFO - Cleaning up keyword Launch
+2020-09-22 14:01:00,068  INFO - Keyword Launch complete.
+2020-09-22 14:01:44,391  INFO - Cleaning up keyword LoginToApplication
+2020-09-22 14:01:44,391  INFO - Keyword LoginToApplication complete.
+2020-09-22 14:01:44,951 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-09-22 14:01:45,282 DEBUG - <a href="screenshots/shot_2020-9-22_14h1m44s952ms.jpg">Screen Shot</a>
+2020-09-22 14:01:45,284 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x, HardwareProd1MandateFieldValues=12|50.00|2}
+2020-09-22 14:01:45,285  INFO - Initializing keyword ValidateOrderLinesInOrderProducts
+2020-09-22 14:01:45,312 ERROR - java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.qualitestgroup.keywords.classic.Classic$ValidateOrderLinesInOrderProducts.init(Classic.java:2820)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:148)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+
+2020-09-22 14:01:45,312  INFO - Cleaning up keyword ValidateOrderLinesInOrderProducts
+2020-09-22 14:01:45,313  INFO - Keyword ValidateOrderLinesInOrderProducts complete.
+2020-09-22 14:01:45,935 DEBUG - Arguments: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x, HardwareProd1MandateFieldValues=12|50.00|2}
+2020-09-22 14:01:46,311 DEBUG - <a href="screenshots/shot_2020-9-22_14h1m45s936ms.jpg">Screen Shot</a>
+2020-09-22 14:01:46,312 ERROR - Verify the user is able to create order for the Quote run #1 failed.
+2020-09-22 14:01:46,339  INFO - Verify the user is able to create order for the Quote completed.
+2020-09-22 14:01:49,710  INFO - Test Failed

@@ -1,0 +1,63 @@
+2020-10-23 12:52:07,899  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-23 12:52:07,909  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-23 12:52:08,257  INFO - Changing log level
+2020-10-23 12:52:08,257  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 12:52:08,258 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-23 12:52:08,261 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 12:52:08,277 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-23 12:52:08,308 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 12:52:08,322 DEBUG - Loading keyword 'SearchAndAddProducts' in app 'Classic'
+2020-10-23 12:52:08,322 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 12:52:08,326 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-23 12:52:08,326 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 12:52:08,328 DEBUG - Loading keyword 'EnterValuesToTheProductsForRamp' in app 'Classic'
+2020-10-23 12:52:08,329 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-23 12:52:08,340  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-23 12:52:08,340  INFO - Dependencies OK, running test.
+2020-10-23 12:52:08,341  INFO - Changing log level
+2020-10-23 12:52:08,341  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 12:52:08,342  INFO - Changing log level
+2020-10-23 12:52:08,342  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 12:52:08,377  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-23 12:52:08,398  INFO - Changing log level
+2020-10-23 12:52:08,398  INFO - Log Level has successfuly changed to: TRACE
+2020-10-23 12:52:08,398  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-23 12:52:08,399 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-23 12:52:08,399  INFO - Initializing keyword LoginToApplication
+2020-10-23 12:52:08,399  INFO - Executing keyword LoginToApplication
+2020-10-23 12:52:08,402 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-23 12:52:08,402 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-23 12:52:08,409 DEBUG - Args: {Browser=Chrome}
+2020-10-23 12:52:08,409  INFO - Initializing keyword Launch
+2020-10-23 12:52:08,409  INFO - Executing keyword Launch
+2020-10-23 12:52:15,814  INFO - Cleaning up keyword Launch
+2020-10-23 12:52:15,815  INFO - Keyword Launch complete.
+2020-10-23 12:52:35,149 ERROR - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir11328_1798204227}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:52208}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1cb6169751e060d5fbffaa3f62b72b63
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:374)
+	at com.qualitestgroup.keywords.classic.Classic$LoginToApplication.exec(Classic.java:129)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+
+2020-10-23 12:52:35,150  INFO - Cleaning up keyword LoginToApplication
+2020-10-23 12:52:35,150  INFO - Keyword LoginToApplication complete.

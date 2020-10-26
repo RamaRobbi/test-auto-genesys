@@ -1,0 +1,76 @@
+2020-10-25 18:17:07,335  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 18:17:07,346  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 18:17:07,856  INFO - Changing log level
+2020-10-25 18:17:07,856  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 18:17:07,857 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-25 18:17:07,891 DEBUG - Creating test case Verify Creation of New Account
+2020-10-25 18:17:07,938 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 18:17:08,201 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 18:17:08,339 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 18:17:08,339 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 18:17:08,350 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 18:17:08,350 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 18:17:08,372 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Lightning'
+2020-10-25 18:17:08,373 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 18:17:08,383 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-25 18:17:08,383 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 18:17:08,395 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 18:17:08,396 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 18:17:08,420  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-25 18:17:08,420  INFO - Dependencies OK, running test.
+2020-10-25 18:17:08,420  INFO - Changing log level
+2020-10-25 18:17:08,420  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 18:17:08,421  INFO - Changing log level
+2020-10-25 18:17:08,421  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 18:17:08,696  INFO - Loading test data for Verify Creation of New Account
+2020-10-25 18:17:08,765  INFO - Changing log level
+2020-10-25 18:17:08,765  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 18:17:08,766  INFO - Verify Creation of New Account run #1
+2020-10-25 18:17:08,766 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 18:17:08,766  INFO - Initializing keyword LoginToApplication
+2020-10-25 18:17:08,767  INFO - Executing keyword LoginToApplication
+2020-10-25 18:17:08,769 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 18:17:08,770 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 18:17:08,835 DEBUG - Args: {Browser=Chrome}
+2020-10-25 18:17:08,835  INFO - Initializing keyword Launch
+2020-10-25 18:17:08,836  INFO - Executing keyword Launch
+2020-10-25 18:17:20,324  INFO - Cleaning up keyword Launch
+2020-10-25 18:17:20,324  INFO - Keyword Launch complete.
+2020-10-25 18:17:37,846  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 18:17:37,846  INFO - Keyword LoginToApplication complete.
+2020-10-25 18:17:38,920 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 18:17:39,374 DEBUG - <a href="screenshots/shot_2020-10-25_18h17m38s920ms.jpg">Screen Shot</a>
+2020-10-25 18:17:39,375 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-10-25 18:17:39,376  INFO - Initializing keyword SelectAccountRecordType
+2020-10-25 18:17:39,376  INFO - Executing keyword SelectAccountRecordType
+2020-10-25 18:18:01,102  INFO - Cleaning up keyword SelectAccountRecordType
+2020-10-25 18:18:01,103  INFO - Keyword SelectAccountRecordType complete.
+2020-10-25 18:18:01,456 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-10-25 18:18:01,772 DEBUG - <a href="screenshots/shot_2020-10-25_18h18m1s457ms.jpg">Screen Shot</a>
+2020-10-25 18:18:01,772 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 18:18:01,772  INFO - Initializing keyword AccountSearchByNameAndClickNew
+2020-10-25 18:18:01,772  INFO - Executing keyword AccountSearchByNameAndClickNew
+2020-10-25 18:18:12,165  INFO - Cleaning up keyword AccountSearchByNameAndClickNew
+2020-10-25 18:18:12,166  INFO - Keyword AccountSearchByNameAndClickNew complete.
+2020-10-25 18:18:12,512 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 18:18:12,831 DEBUG - <a href="screenshots/shot_2020-10-25_18h18m12s512ms.jpg">Screen Shot</a>
+2020-10-25 18:18:12,832 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 18:18:12,832  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-10-25 18:18:12,833  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-10-25 18:19:20,117  WARN - Keyword EnterAccountMandatoryDetails execution fail: Not able to enter on an element having xpath - <b>//span[text()='Account Comments']/parent::label//following-sibling::input</b>
+2020-10-25 18:19:20,134  WARN - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Account Comments']/parent::label//following-sibling::input"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir6700_588820848}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59795}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1a82ff64f01a60043c27296e535d45a4
+*** Element info: {Using=xpath, value=//span[text()='Account Comments']/parent::label//following-sibling::input}
+2020-10-25 18:19:20,135  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-10-25 18:19:20,135  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-10-25 18:19:20,839 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-25 18:19:21,218 DEBUG - <a href="screenshots/shot_2020-10-25_18h19m20s840ms.jpg">Screen Shot</a>
+2020-10-25 18:19:21,219 ERROR - Verify Creation of New Account run #1 failed.
+2020-10-25 18:19:21,346  INFO - Verify Creation of New Account completed.
+2020-10-25 18:19:26,303  INFO - Test Failed

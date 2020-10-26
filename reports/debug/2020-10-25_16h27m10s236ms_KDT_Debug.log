@@ -1,0 +1,70 @@
+2020-10-25 16:27:15,626  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-25 16:27:15,635  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-25 16:27:16,008  INFO - Changing log level
+2020-10-25 16:27:16,008  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:27:16,009 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-10-25 16:27:16,014 DEBUG - Creating test case Verify cancellation of Account creation
+2020-10-25 16:27:16,039 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-25 16:27:16,046 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:27:16,058 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Lightning'
+2020-10-25 16:27:16,058 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:27:16,060 DEBUG - Loading keyword 'AccountSearchByNameAndClickNew' in app 'Lightning'
+2020-10-25 16:27:16,060 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:27:16,061 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Lightning'
+2020-10-25 16:27:16,062 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:27:16,063 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Lightning'
+2020-10-25 16:27:16,064 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-25 16:27:16,078  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-10-25 16:27:16,079  INFO - Dependencies OK, running test.
+2020-10-25 16:27:16,079  INFO - Changing log level
+2020-10-25 16:27:16,079  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:27:16,079  INFO - Changing log level
+2020-10-25 16:27:16,080  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:27:16,099  INFO - Loading test data for Verify cancellation of Account creation
+2020-10-25 16:27:16,116  INFO - Changing log level
+2020-10-25 16:27:16,117  INFO - Log Level has successfuly changed to: TRACE
+2020-10-25 16:27:16,118  INFO - Verify cancellation of Account creation run #1
+2020-10-25 16:27:16,118 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 16:27:16,119  INFO - Initializing keyword LoginToApplication
+2020-10-25 16:27:16,119  INFO - Executing keyword LoginToApplication
+2020-10-25 16:27:16,121 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-25 16:27:16,122 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-25 16:27:16,129 DEBUG - Args: {Browser=Chrome}
+2020-10-25 16:27:16,130  INFO - Initializing keyword Launch
+2020-10-25 16:27:16,130  INFO - Executing keyword Launch
+2020-10-25 16:27:24,657  INFO - Cleaning up keyword Launch
+2020-10-25 16:27:24,657  INFO - Keyword Launch complete.
+2020-10-25 16:28:02,880  INFO - Cleaning up keyword LoginToApplication
+2020-10-25 16:28:02,880  INFO - Keyword LoginToApplication complete.
+2020-10-25 16:28:03,717 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-25 16:28:04,089 DEBUG - <a href="screenshots/shot_2020-10-25_16h28m3s717ms.jpg">Screen Shot</a>
+2020-10-25 16:28:04,089 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-10-25 16:28:04,090  INFO - Initializing keyword SelectAccountRecordType
+2020-10-25 16:28:04,090  INFO - Executing keyword SelectAccountRecordType
+2020-10-25 16:28:28,033  INFO - Cleaning up keyword SelectAccountRecordType
+2020-10-25 16:28:28,034  INFO - Keyword SelectAccountRecordType complete.
+2020-10-25 16:28:28,390 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-10-25 16:28:28,660 DEBUG - <a href="screenshots/shot_2020-10-25_16h28m28s391ms.jpg">Screen Shot</a>
+2020-10-25 16:28:28,660 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 16:28:28,661  INFO - Initializing keyword AccountSearchByNameAndClickNew
+2020-10-25 16:28:28,661  INFO - Executing keyword AccountSearchByNameAndClickNew
+2020-10-25 16:28:38,560  INFO - Cleaning up keyword AccountSearchByNameAndClickNew
+2020-10-25 16:28:38,560  INFO - Keyword AccountSearchByNameAndClickNew complete.
+2020-10-25 16:28:38,850 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=Auto_Acct001}
+2020-10-25 16:28:39,126 DEBUG - <a href="screenshots/shot_2020-10-25_16h28m38s851ms.jpg">Screen Shot</a>
+2020-10-25 16:28:39,127 DEBUG - Args: {}
+2020-10-25 16:28:39,127  INFO - Initializing keyword CancelAccountCreation
+2020-10-25 16:28:39,127  INFO - Executing keyword CancelAccountCreation
+2020-10-25 16:29:39,841  INFO - Cleaning up keyword CancelAccountCreation
+2020-10-25 16:29:39,841  INFO - Keyword CancelAccountCreation complete.
+2020-10-25 16:29:40,229 DEBUG - Arguments: {}
+2020-10-25 16:29:40,529 DEBUG - <a href="screenshots/shot_2020-10-25_16h29m40s229ms.jpg">Screen Shot</a>
+2020-10-25 16:29:40,531 DEBUG - Args: {}
+2020-10-25 16:29:40,532  INFO - Initializing keyword LogoutOfApplication
+2020-10-25 16:29:40,533  INFO - Executing keyword LogoutOfApplication
+2020-10-25 16:29:50,826  INFO - Cleaning up keyword LogoutOfApplication
+2020-10-25 16:29:50,827  INFO - Keyword LogoutOfApplication complete.
+2020-10-25 16:29:51,138 DEBUG - Arguments: {}
+2020-10-25 16:29:51,486 DEBUG - <a href="screenshots/shot_2020-10-25_16h29m51s139ms.jpg">Screen Shot</a>
+2020-10-25 16:29:51,639  INFO - Verify cancellation of Account creation completed.
+2020-10-25 16:29:57,213  INFO - Test Passed

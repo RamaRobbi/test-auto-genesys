@@ -1,0 +1,37 @@
+2020-10-26 00:06:10,559  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-26 00:06:10,572  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Lightning.xls
+2020-10-26 00:06:10,881  INFO - Changing log level
+2020-10-26 00:06:10,881  INFO - Log Level has successfuly changed to: TRACE
+2020-10-26 00:06:10,882 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-10-26 00:06:10,884 DEBUG - Creating test case Verify Creation of New Account
+2020-10-26 00:06:10,896 DEBUG - Loading keyword 'LoginToApplication' in app 'Lightning'
+2020-10-26 00:06:11,125 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-26 00:06:12,223 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Lightning'
+2020-10-26 00:06:12,223 DEBUG - Checking in com.qualitestgroup.keywords.lightning.Lightning
+2020-10-26 00:06:12,271  INFO - Checking Verify Creation of New Account's dependencies.
+2020-10-26 00:06:12,271  INFO - Dependencies OK, running test.
+2020-10-26 00:06:12,271  INFO - Changing log level
+2020-10-26 00:06:12,272  INFO - Log Level has successfuly changed to: TRACE
+2020-10-26 00:06:12,272  INFO - Changing log level
+2020-10-26 00:06:12,272  INFO - Log Level has successfuly changed to: TRACE
+2020-10-26 00:06:12,287  INFO - Loading test data for Verify Creation of New Account
+2020-10-26 00:06:12,304  INFO - Changing log level
+2020-10-26 00:06:12,304  INFO - Log Level has successfuly changed to: TRACE
+2020-10-26 00:06:12,305  INFO - Verify Creation of New Account run #1
+2020-10-26 00:06:12,305 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-26 00:06:12,306  INFO - Initializing keyword LoginToApplication
+2020-10-26 00:06:12,306  INFO - Executing keyword LoginToApplication
+2020-10-26 00:06:12,307 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-26 00:06:12,309 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-26 00:06:12,317 DEBUG - Args: {Browser=Chrome}
+2020-10-26 00:06:12,318  INFO - Initializing keyword Launch
+2020-10-26 00:06:12,318  INFO - Executing keyword Launch
+2020-10-26 00:06:46,862  INFO - Cleaning up keyword Launch
+2020-10-26 00:06:46,863  INFO - Keyword Launch complete.
+2020-10-26 00:07:06,061  INFO - Cleaning up keyword LoginToApplication
+2020-10-26 00:07:06,061  INFO - Keyword LoginToApplication complete.
+2020-10-26 00:07:08,664 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-26 00:07:09,664 DEBUG - <a href="screenshots/shot_2020-10-26_0h7m8s665ms.jpg">Screen Shot</a>
+2020-10-26 00:07:09,665 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100|ROBBI RAMANAMMA, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-10-26 00:07:09,665  INFO - Initializing keyword SaveAccountDetails
+2020-10-26 00:07:09,666  INFO - Executing keyword SaveAccountDetails

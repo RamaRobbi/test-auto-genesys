@@ -1,0 +1,37 @@
+2020-10-24 00:19:17,453  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 00:19:17,460  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 00:19:17,797  INFO - Changing log level
+2020-10-24 00:19:17,797  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:19:17,798 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-24 00:19:17,800 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 00:19:17,819 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 00:19:17,824 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 00:19:17,862 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-24 00:19:17,863 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 00:19:17,874  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-24 00:19:17,875  INFO - Dependencies OK, running test.
+2020-10-24 00:19:17,875  INFO - Changing log level
+2020-10-24 00:19:17,875  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:19:17,875  INFO - Changing log level
+2020-10-24 00:19:17,875  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:19:17,902  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 00:19:17,922  INFO - Changing log level
+2020-10-24 00:19:17,922  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 00:19:17,923  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-24 00:19:17,923 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 00:19:17,923  INFO - Initializing keyword LoginToApplication
+2020-10-24 00:19:17,923  INFO - Executing keyword LoginToApplication
+2020-10-24 00:19:17,926 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 00:19:17,926 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 00:19:17,932 DEBUG - Args: {Browser=Chrome}
+2020-10-24 00:19:17,932  INFO - Initializing keyword Launch
+2020-10-24 00:19:17,933  INFO - Executing keyword Launch
+2020-10-24 00:19:24,923  INFO - Cleaning up keyword Launch
+2020-10-24 00:19:24,923  INFO - Keyword Launch complete.
+2020-10-24 00:19:39,098  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 00:19:39,098  INFO - Keyword LoginToApplication complete.
+2020-10-24 00:19:39,460 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 00:19:40,579 DEBUG - <a href="screenshots/shot_2020-10-24_0h19m39s461ms.jpg">Screen Shot</a>
+2020-10-24 00:19:40,579 DEBUG - Args: {WrapperSubProducts=PureCloud 2 User|PureCloud Communicate User|PureCloud Collaborate User|PureCloud Communicate Stand-alone Phone|PureCloud for Wallboard Device Charge, HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00, HardwareProd1MandateFieldValues=2|2|30|100, QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 00:19:40,580  INFO - Initializing keyword ConfigureProducts
+2020-10-24 00:19:40,580  INFO - Executing keyword ConfigureProducts

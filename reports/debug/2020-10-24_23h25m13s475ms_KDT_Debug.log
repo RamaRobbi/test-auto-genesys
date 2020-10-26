@@ -1,0 +1,91 @@
+2020-10-24 23:25:17,774  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 23:25:17,779  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 23:25:17,968  INFO - Changing log level
+2020-10-24 23:25:17,968  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:25:17,969 DEBUG - Loading test case 'Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote'
+2020-10-24 23:25:17,971 DEBUG - Creating test case Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:25:17,986 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 23:25:17,991 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:25:18,000 DEBUG - Loading keyword 'EnterQuoteMandatoryDetailsForRAMP' in app 'Classic'
+2020-10-24 23:25:18,001 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:25:18,002 DEBUG - Loading keyword 'SearchAndAddProducts' in app 'Classic'
+2020-10-24 23:25:18,002 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:25:18,003 DEBUG - Loading keyword 'SearchAndAddWrapperProduct' in app 'Classic'
+2020-10-24 23:25:18,003 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:25:18,004 DEBUG - Loading keyword 'ConfigureProducts' in app 'Classic'
+2020-10-24 23:25:18,004 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:25:18,006 DEBUG - Loading keyword 'EnterValuesToTheProductsForRamp' in app 'Classic'
+2020-10-24 23:25:18,006 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:25:18,010  INFO - Checking Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote's dependencies.
+2020-10-24 23:25:18,010  INFO - Dependencies OK, running test.
+2020-10-24 23:25:18,010  INFO - Changing log level
+2020-10-24 23:25:18,010  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:25:18,010  INFO - Changing log level
+2020-10-24 23:25:18,010  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:25:18,036  INFO - Loading test data for Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote
+2020-10-24 23:25:18,052  INFO - Changing log level
+2020-10-24 23:25:18,052  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:25:18,052  INFO - Verify  the user is able to  Create a New Quote on a existing Opportunity and add the Products to the same Quote run #1
+2020-10-24 23:25:18,053 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:25:18,053  INFO - Initializing keyword LoginToApplication
+2020-10-24 23:25:18,053  INFO - Executing keyword LoginToApplication
+2020-10-24 23:25:18,054 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 23:25:18,055 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 23:25:18,059 DEBUG - Args: {Browser=Chrome}
+2020-10-24 23:25:18,059  INFO - Initializing keyword Launch
+2020-10-24 23:25:18,059  INFO - Executing keyword Launch
+2020-10-24 23:25:24,612  INFO - Cleaning up keyword Launch
+2020-10-24 23:25:24,613  INFO - Keyword Launch complete.
+2020-10-24 23:25:39,307  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 23:25:39,307  INFO - Keyword LoginToApplication complete.
+2020-10-24 23:25:39,656 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:25:39,999 DEBUG - <a href="screenshots/shot_2020-10-24_23h25m39s657ms.jpg">Screen Shot</a>
+2020-10-24 23:25:39,999 DEBUG - Args: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:25:40,000  INFO - Initializing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:25:40,000  INFO - Executing keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:25:50,694  INFO - Cleaning up keyword EnterQuoteMandatoryDetailsForRAMP
+2020-10-24 23:25:50,695  INFO - Keyword EnterQuoteMandatoryDetailsForRAMP complete.
+2020-10-24 23:25:51,035 DEBUG - Arguments: {QuoteFieldValues=Monthly|2 Years|Test|New Subscription|24|Annual M2M|Net 30|Yes|Yes|Test}
+2020-10-24 23:25:51,316 DEBUG - <a href="screenshots/shot_2020-10-24_23h25m51s35ms.jpg">Screen Shot</a>
+2020-10-24 23:25:51,317 DEBUG - Args: {HardwareProd1=10 Rack Mounting Shelves - Bulk Pack for MP-11x@5.00}
+2020-10-24 23:25:51,317  INFO - Initializing keyword SearchAndAddProducts
+2020-10-24 23:25:51,317  INFO - Executing keyword SearchAndAddProducts
+2020-10-24 23:26:24,187 ERROR - org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir20832_1215314254}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54830}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 729d6aaeaf667301a8f4c513929aa71a
+*** Element info: {Using=xpath, value=//paper-button[text()='Add Products']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	at com.qualitestgroup.keywords.common.ElementOperation.clickElementAfterReplacingKeyValue(ElementOperation.java:313)
+	at com.qualitestgroup.keywords.classic.Classic$SearchAndAddProducts.exec(Classic.java:2656)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+
+2020-10-24 23:26:24,188  INFO - Cleaning up keyword SearchAndAddProducts
+2020-10-24 23:26:24,188  INFO - Keyword SearchAndAddProducts complete.

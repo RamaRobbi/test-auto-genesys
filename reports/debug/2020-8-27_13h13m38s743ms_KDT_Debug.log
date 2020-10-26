@@ -1,0 +1,88 @@
+2020-08-27 13:13:45,503  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-27 13:13:45,513  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-27 13:13:45,801  INFO - Changing log level
+2020-08-27 13:13:45,801  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 13:13:45,802 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-08-27 13:13:45,804 DEBUG - Creating test case Verify Creation of New Account
+2020-08-27 13:13:45,822 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-27 13:13:45,830 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 13:13:45,841 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-27 13:13:45,841 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 13:13:45,843 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-27 13:13:45,843 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 13:13:45,845 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-27 13:13:45,846 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 13:13:45,849 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-27 13:13:45,849 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 13:13:45,880 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-27 13:13:45,881 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-27 13:13:45,891  INFO - Checking Verify Creation of New Account's dependencies.
+2020-08-27 13:13:45,892  INFO - Dependencies OK, running test.
+2020-08-27 13:13:45,892  INFO - Changing log level
+2020-08-27 13:13:45,892  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 13:13:45,892  INFO - Changing log level
+2020-08-27 13:13:45,892  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 13:13:45,909  INFO - Loading test data for Verify Creation of New Account
+2020-08-27 13:13:45,925  INFO - Changing log level
+2020-08-27 13:13:45,925  INFO - Log Level has successfuly changed to: TRACE
+2020-08-27 13:13:45,925  INFO - Verify Creation of New Account run #1
+2020-08-27 13:13:45,926 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 13:13:45,927  INFO - Initializing keyword LoginToApplication
+2020-08-27 13:13:45,927  INFO - Executing keyword LoginToApplication
+2020-08-27 13:13:45,929 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-27 13:13:45,930 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-27 13:13:45,939 DEBUG - Args: {Browser=Chrome}
+2020-08-27 13:13:45,939  INFO - Initializing keyword Launch
+2020-08-27 13:13:45,940  INFO - Executing keyword Launch
+2020-08-27 13:13:52,731  INFO - Cleaning up keyword Launch
+2020-08-27 13:13:52,732  INFO - Keyword Launch complete.
+2020-08-27 13:14:09,233  INFO - Cleaning up keyword LoginToApplication
+2020-08-27 13:14:09,234  INFO - Keyword LoginToApplication complete.
+2020-08-27 13:14:09,638 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-27 13:14:10,069 DEBUG - <a href="screenshots/shot_2020-8-27_13h14m9s639ms.jpg">Screen Shot</a>
+2020-08-27 13:14:10,070 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-08-27 13:14:10,070  INFO - Initializing keyword SelectAccountRecordType
+2020-08-27 13:14:10,071  INFO - Executing keyword SelectAccountRecordType
+2020-08-27 13:14:15,524  INFO - Cleaning up keyword SelectAccountRecordType
+2020-08-27 13:14:15,525  INFO - Keyword SelectAccountRecordType complete.
+2020-08-27 13:14:15,841 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-08-27 13:14:16,162 DEBUG - <a href="screenshots/shot_2020-8-27_13h14m15s842ms.jpg">Screen Shot</a>
+2020-08-27 13:14:16,163 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 13:14:16,164  INFO - Initializing keyword AccountSearchByName
+2020-08-27 13:14:16,164  INFO - Executing keyword AccountSearchByName
+2020-08-27 13:14:20,896  INFO - Cleaning up keyword AccountSearchByName
+2020-08-27 13:14:20,896  INFO - Keyword AccountSearchByName complete.
+2020-08-27 13:14:21,211 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-27 13:14:21,506 DEBUG - <a href="screenshots/shot_2020-8-27_13h14m21s211ms.jpg">Screen Shot</a>
+2020-08-27 13:14:21,506 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-27 13:14:21,506  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-08-27 13:14:21,506  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-08-27 13:15:26,445 ERROR - org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=84.0.4147.135)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir11280_433017416}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:65166}, acceptInsecureCerts=false, browserVersion=84.0.4147.135, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 543566ea7bfc4dda297f7568c4772b87
+*** Element info: {Using=tag name, value=frame}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByTagName(RemoteWebDriver.java:481)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at com.qualitestgroup.keywords.classic.Classic$EnterAccountMandatoryDetails.exec(Classic.java:458)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+

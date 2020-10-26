@@ -1,0 +1,54 @@
+2020-10-24 23:50:54,982  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-10-24 23:50:54,987  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic_ExistingAccount_NORAMP_Monthly.xls
+2020-10-24 23:50:55,301  INFO - Changing log level
+2020-10-24 23:50:55,302  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:50:55,302 DEBUG - Loading test case 'Verify the User is able to Create a New Opportunity'
+2020-10-24 23:50:55,304 DEBUG - Creating test case Verify the User is able to Create a New Opportunity
+2020-10-24 23:50:55,342 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-10-24 23:50:55,346 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:50:55,367 DEBUG - Loading keyword 'EnterOpportunitiesMandatoryDetails' in app 'Classic'
+2020-10-24 23:50:55,367 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-10-24 23:50:55,390  INFO - Checking Verify the User is able to Create a New Opportunity's dependencies.
+2020-10-24 23:50:55,390  INFO - Dependencies OK, running test.
+2020-10-24 23:50:55,390  INFO - Changing log level
+2020-10-24 23:50:55,390  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:50:55,390  INFO - Changing log level
+2020-10-24 23:50:55,391  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:50:55,417  INFO - Loading test data for Verify the User is able to Create a New Opportunity
+2020-10-24 23:50:55,438  INFO - Changing log level
+2020-10-24 23:50:55,439  INFO - Log Level has successfuly changed to: TRACE
+2020-10-24 23:50:55,439  INFO - Verify the User is able to Create a New Opportunity run #1
+2020-10-24 23:50:55,439 DEBUG - Args: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:50:55,440  INFO - Initializing keyword LoginToApplication
+2020-10-24 23:50:55,440  INFO - Executing keyword LoginToApplication
+2020-10-24 23:50:55,442 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-10-24 23:50:55,443 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-10-24 23:50:55,448 DEBUG - Args: {Browser=Chrome}
+2020-10-24 23:50:55,449  INFO - Initializing keyword Launch
+2020-10-24 23:50:55,449  INFO - Executing keyword Launch
+2020-10-24 23:51:02,844  INFO - Cleaning up keyword Launch
+2020-10-24 23:51:02,845  INFO - Keyword Launch complete.
+2020-10-24 23:51:18,864  INFO - Cleaning up keyword LoginToApplication
+2020-10-24 23:51:18,864  INFO - Keyword LoginToApplication complete.
+2020-10-24 23:51:19,432 DEBUG - Arguments: {Username=robbi.ramanamma@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=Zen@1234}
+2020-10-24 23:51:19,765 DEBUG - <a href="screenshots/shot_2020-10-24_23h51m19s433ms.jpg">Screen Shot</a>
+2020-10-24 23:51:19,766 DEBUG - Args: {OpportunitiesFieldValues=Auto_Opp|12/31/2021|1.Understand Needs|Automation_|Partner Co-sell|United States|Direct|New logo|PureCloud|Cloud|Customer Dev Bundle|NORTH AMERICA}
+2020-10-24 23:51:19,766  INFO - Initializing keyword EnterOpportunitiesMandatoryDetails
+2020-10-24 23:51:19,766  INFO - Executing keyword EnterOpportunitiesMandatoryDetails
+2020-10-24 23:51:29,806  WARN - Keyword EnterOpportunitiesMandatoryDetails execution fail: Not able to get attribute from an element having xpath - <b>//label[text()='Opportunity Name']/../following-sibling::td[1]//input</b>
+2020-10-24 23:51:29,808  WARN - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Opportunity Name']/../following-sibling::td[1]//input"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.234.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\RAMANA~1.ROB\AppData\Local\Temp\scoped_dir22148_1677860633}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56245}, acceptInsecureCerts=false, browserVersion=86.0.4240.111, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: 62cb32e231e161ab01c46c5a4495ef30
+*** Element info: {Using=xpath, value=//label[text()='Opportunity Name']/../following-sibling::td[1]//input}
+2020-10-24 23:51:29,808  INFO - Cleaning up keyword EnterOpportunitiesMandatoryDetails
+2020-10-24 23:51:29,808  INFO - Keyword EnterOpportunitiesMandatoryDetails complete.
+2020-10-24 23:51:30,398 DEBUG - Arguments: {OpportunitiesFieldValues=Auto_Opp|12/31/2021|1.Understand Needs|Automation_|Partner Co-sell|United States|Direct|New logo|PureCloud|Cloud|Customer Dev Bundle|NORTH AMERICA}
+2020-10-24 23:51:30,714 DEBUG - <a href="screenshots/shot_2020-10-24_23h51m30s398ms.jpg">Screen Shot</a>
+2020-10-24 23:51:30,715 ERROR - Verify the User is able to Create a New Opportunity run #1 failed.
+2020-10-24 23:51:30,723  INFO - Verify the User is able to Create a New Opportunity completed.
+2020-10-24 23:51:32,556  INFO - Test Failed

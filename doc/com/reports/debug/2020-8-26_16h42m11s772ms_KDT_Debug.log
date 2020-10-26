@@ -1,0 +1,41 @@
+2020-08-26 16:42:18,844  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-26 16:42:18,850  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-26 16:42:19,211  INFO - Changing log level
+2020-08-26 16:42:19,212  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:42:19,212 DEBUG - Loading test case 'Verify user is able to edit account'
+2020-08-26 16:42:19,216 DEBUG - Creating test case Verify user is able to edit account
+2020-08-26 16:42:19,235 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-26 16:42:19,241 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:42:19,279 DEBUG - Loading keyword 'EditAccount' in app 'Classic'
+2020-08-26 16:42:19,280 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:42:19,283 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-26 16:42:19,283 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:42:19,285 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-26 16:42:19,286 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-26 16:42:19,298  INFO - Checking Verify user is able to edit account's dependencies.
+2020-08-26 16:42:19,298  INFO - Dependencies OK, running test.
+2020-08-26 16:42:19,299  INFO - Changing log level
+2020-08-26 16:42:19,299  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:42:19,299  INFO - Changing log level
+2020-08-26 16:42:19,299  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:42:19,315  INFO - Loading test data for Verify user is able to edit account
+2020-08-26 16:42:19,331  INFO - Changing log level
+2020-08-26 16:42:19,332  INFO - Log Level has successfuly changed to: TRACE
+2020-08-26 16:42:19,332  INFO - Verify user is able to edit account run #1
+2020-08-26 16:42:19,332 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-26 16:42:19,332  INFO - Initializing keyword LoginToApplication
+2020-08-26 16:42:19,332  INFO - Executing keyword LoginToApplication
+2020-08-26 16:42:19,333 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-26 16:42:19,334 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-26 16:42:19,340 DEBUG - Args: {Browser=Chrome}
+2020-08-26 16:42:19,340  INFO - Initializing keyword Launch
+2020-08-26 16:42:19,341  INFO - Executing keyword Launch
+2020-08-26 16:42:26,407  INFO - Cleaning up keyword Launch
+2020-08-26 16:42:26,408  INFO - Keyword Launch complete.
+2020-08-26 16:42:41,987  INFO - Cleaning up keyword LoginToApplication
+2020-08-26 16:42:41,988  INFO - Keyword LoginToApplication complete.
+2020-08-26 16:42:42,521 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-26 16:42:44,183 DEBUG - <a href="screenshots/shot_2020-8-26_16h42m42s522ms.jpg">Screen Shot</a>
+2020-08-26 16:42:44,185 DEBUG - Args: {AccountName=ACCT_1234}
+2020-08-26 16:42:44,186  INFO - Initializing keyword EditAccount
+2020-08-26 16:42:44,187  INFO - Executing keyword EditAccount

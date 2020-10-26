@@ -1,0 +1,117 @@
+2020-08-28 16:00:18,129  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-28 16:00:18,135  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-28 16:00:18,322  INFO - Changing log level
+2020-08-28 16:00:18,322  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 16:00:18,322 DEBUG - Loading test case 'Verify Creation of New Account'
+2020-08-28 16:00:18,324 DEBUG - Creating test case Verify Creation of New Account
+2020-08-28 16:00:18,343 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-28 16:00:18,347 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,355 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-28 16:00:18,355 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,356 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-28 16:00:18,356 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,357 DEBUG - Loading keyword 'EnterAccountMandatoryDetails' in app 'Classic'
+2020-08-28 16:00:18,357 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,358 DEBUG - Loading keyword 'SaveAccountDetails' in app 'Classic'
+2020-08-28 16:00:18,359 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,360 DEBUG - Loading keyword 'CreateContactFromAccount' in app 'Classic'
+2020-08-28 16:00:18,360 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,361 DEBUG - Loading keyword 'EnterContactMandatoryDetails' in app 'Classic'
+2020-08-28 16:00:18,361 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,362 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-28 16:00:18,362 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-28 16:00:18,373  INFO - Checking Verify Creation of New Account's dependencies.
+2020-08-28 16:00:18,374  INFO - Dependencies OK, running test.
+2020-08-28 16:00:18,374  INFO - Changing log level
+2020-08-28 16:00:18,374  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 16:00:18,374  INFO - Changing log level
+2020-08-28 16:00:18,374  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 16:00:18,387  INFO - Loading test data for Verify Creation of New Account
+2020-08-28 16:00:18,400  INFO - Changing log level
+2020-08-28 16:00:18,401  INFO - Log Level has successfuly changed to: TRACE
+2020-08-28 16:00:18,401  INFO - Verify Creation of New Account run #1
+2020-08-28 16:00:18,401 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-28 16:00:18,402  INFO - Initializing keyword LoginToApplication
+2020-08-28 16:00:18,402  INFO - Executing keyword LoginToApplication
+2020-08-28 16:00:18,403 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-28 16:00:18,403 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-28 16:00:18,408 DEBUG - Args: {Browser=Chrome}
+2020-08-28 16:00:18,409  INFO - Initializing keyword Launch
+2020-08-28 16:00:18,409  INFO - Executing keyword Launch
+2020-08-28 16:00:25,331  INFO - Cleaning up keyword Launch
+2020-08-28 16:00:25,332  INFO - Keyword Launch complete.
+2020-08-28 16:00:42,822  INFO - Cleaning up keyword LoginToApplication
+2020-08-28 16:00:42,823  INFO - Keyword LoginToApplication complete.
+2020-08-28 16:00:43,183 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-28 16:00:43,528 DEBUG - <a href="screenshots/shot_2020-8-28_16h0m43s184ms.jpg">Screen Shot</a>
+2020-08-28 16:00:43,528 DEBUG - Args: {RecordType=EMG - Customer Record Type}
+2020-08-28 16:00:43,528  INFO - Initializing keyword SelectAccountRecordType
+2020-08-28 16:00:43,529  INFO - Executing keyword SelectAccountRecordType
+2020-08-28 16:00:51,186  INFO - Cleaning up keyword SelectAccountRecordType
+2020-08-28 16:00:51,186  INFO - Keyword SelectAccountRecordType complete.
+2020-08-28 16:00:51,488 DEBUG - Arguments: {RecordType=EMG - Customer Record Type}
+2020-08-28 16:00:51,817 DEBUG - <a href="screenshots/shot_2020-8-28_16h0m51s489ms.jpg">Screen Shot</a>
+2020-08-28 16:00:51,818 DEBUG - Args: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-28 16:00:51,818  INFO - Initializing keyword AccountSearchByName
+2020-08-28 16:00:51,818  INFO - Executing keyword AccountSearchByName
+2020-08-28 16:00:58,251  INFO - Cleaning up keyword AccountSearchByName
+2020-08-28 16:00:58,252  INFO - Keyword AccountSearchByName complete.
+2020-08-28 16:00:58,553 DEBUG - Arguments: {RecordType=EMG - Customer Record Type, AccountName=ACCT_0001}
+2020-08-28 16:00:58,869 DEBUG - <a href="screenshots/shot_2020-8-28_16h0m58s553ms.jpg">Screen Shot</a>
+2020-08-28 16:00:58,869 DEBUG - Args: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-28 16:00:58,869  INFO - Initializing keyword EnterAccountMandatoryDetails
+2020-08-28 16:00:58,870  INFO - Executing keyword EnterAccountMandatoryDetails
+2020-08-28 16:02:05,662  INFO - Cleaning up keyword EnterAccountMandatoryDetails
+2020-08-28 16:02:05,663  INFO - Keyword EnterAccountMandatoryDetails complete.
+2020-08-28 16:02:05,959 DEBUG - Arguments: {AccountProfiling=OTHER|Non-Classifiable Other|Private|Business-to-Consumer|0 to 5|Sent to SSA, AccountFieldValues=Automation|Creating Account|Active|01. Active|40664|8100, ContactFieldValues=400 New York Ave|4th Lane|Near Office|Alamogordo|88310|United States|WA}
+2020-08-28 16:02:06,235 DEBUG - <a href="screenshots/shot_2020-8-28_16h2m5s960ms.jpg">Screen Shot</a>
+2020-08-28 16:02:06,236 DEBUG - Args: {}
+2020-08-28 16:02:06,236  INFO - Initializing keyword SaveAccountDetails
+2020-08-28 16:02:06,236  INFO - Executing keyword SaveAccountDetails
+2020-08-28 16:02:21,033  INFO - Cleaning up keyword SaveAccountDetails
+2020-08-28 16:02:21,034  INFO - Keyword SaveAccountDetails complete.
+2020-08-28 16:02:21,731 DEBUG - Arguments: {}
+2020-08-28 16:02:22,045 DEBUG - <a href="screenshots/shot_2020-8-28_16h2m21s732ms.jpg">Screen Shot</a>
+2020-08-28 16:02:22,046 DEBUG - Args: {}
+2020-08-28 16:02:22,046  INFO - Initializing keyword CreateContactFromAccount
+2020-08-28 16:02:22,046  INFO - Executing keyword CreateContactFromAccount
+2020-08-28 16:02:52,622  INFO - Cleaning up keyword CreateContactFromAccount
+2020-08-28 16:02:52,622  INFO - Keyword CreateContactFromAccount complete.
+2020-08-28 16:02:52,969 DEBUG - Arguments: {}
+2020-08-28 16:02:53,293 DEBUG - <a href="screenshots/shot_2020-8-28_16h2m52s969ms.jpg">Screen Shot</a>
+2020-08-28 16:02:53,294 DEBUG - Args: {ContactFieldValues=Automation|Creating Account|Active|01. Active|40664|8100}
+2020-08-28 16:02:53,294  INFO - Initializing keyword EnterContactMandatoryDetails
+2020-08-28 16:02:53,294  INFO - Executing keyword EnterContactMandatoryDetails
+2020-08-28 16:05:41,614 ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@class="list"]//tr[@class='dataRow even first']//a (tried for 150 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.qualitestgroup.keywords.common.ElementOperation.clickElementAfterReplacingKeyValue(ElementOperation.java:312)
+	at com.qualitestgroup.keywords.classic.Classic$EnterContactMandatoryDetails.exec(Classic.java:824)
+	at com.qualitestgroup.kdt.Keyword.run(Keyword.java:153)
+	at com.qualitestgroup.kdt.TestStep.run(TestStep.java:163)
+	at com.qualitestgroup.kdt.TestCase.run(TestCase.java:327)
+	at com.qualitestgroup.kdt.KDTDriver.run(KDTDriver.java:250)
+	at com.qualitestgroup.kdt.KDTDriver.main(KDTDriver.java:571)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@class="list"]//tr[@class='dataRow even first']//a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'QT-INBG-LT0557', ip: '10.31.235.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: KDTDriver
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:644)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 7 more
+
+2020-08-28 16:05:41,615  INFO - Cleaning up keyword EnterContactMandatoryDetails
+2020-08-28 16:05:41,615  INFO - Keyword EnterContactMandatoryDetails complete.
+2020-08-28 16:05:42,146 DEBUG - Arguments: {ContactFieldValues=Automation|Creating Account|Active|01. Active|40664|8100}
+2020-08-28 16:05:42,382 DEBUG - <a href="screenshots/shot_2020-8-28_16h5m42s147ms.jpg">Screen Shot</a>
+2020-08-28 16:05:42,382 ERROR - Verify Creation of New Account run #1 failed.
+2020-08-28 16:05:42,389  INFO - Verify Creation of New Account completed.
+2020-08-28 16:05:44,813  INFO - Test Failed

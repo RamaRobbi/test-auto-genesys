@@ -1,0 +1,64 @@
+2020-08-25 16:35:08,541  INFO - Run by: QUALITEST\ramanamma.robbi
+2020-08-25 16:35:08,580  INFO - Opening C:\genesys\Genesys-Automation-master\Datasheets\CPQ_Automation_POC_Classic.xls
+2020-08-25 16:35:15,949  INFO - Changing log level
+2020-08-25 16:35:15,951  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 16:35:15,956 DEBUG - Loading test case 'Verify cancellation of Account creation'
+2020-08-25 16:35:16,010 DEBUG - Creating test case Verify cancellation of Account creation
+2020-08-25 16:35:16,315 DEBUG - Loading keyword 'LoginToApplication' in app 'Classic'
+2020-08-25 16:35:16,500 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 16:35:16,681 DEBUG - Loading keyword 'SelectAccountRecordType' in app 'Classic'
+2020-08-25 16:35:16,682 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 16:35:16,699 DEBUG - Loading keyword 'AccountSearchByName' in app 'Classic'
+2020-08-25 16:35:16,700 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 16:35:16,710 DEBUG - Loading keyword 'CancelAccountCreation' in app 'Classic'
+2020-08-25 16:35:16,711 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 16:35:16,724 DEBUG - Loading keyword 'LogoutOfApplication' in app 'Classic'
+2020-08-25 16:35:16,726 DEBUG - Checking in com.qualitestgroup.keywords.classic.Classic
+2020-08-25 16:35:41,440  INFO - Checking Verify cancellation of Account creation's dependencies.
+2020-08-25 16:35:41,454  INFO - Dependencies OK, running test.
+2020-08-25 16:35:41,461  INFO - Changing log level
+2020-08-25 16:35:41,466  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 16:35:41,471  INFO - Changing log level
+2020-08-25 16:35:41,475  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 16:35:42,348  INFO - Loading test data for Verify cancellation of Account creation
+2020-08-25 16:35:45,776  INFO - Changing log level
+2020-08-25 16:35:45,780  INFO - Log Level has successfuly changed to: TRACE
+2020-08-25 16:35:45,783  INFO - Verify cancellation of Account creation run #1
+2020-08-25 16:35:45,790 DEBUG - Args: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-25 16:35:45,795  INFO - Initializing keyword LoginToApplication
+2020-08-25 16:36:39,448  INFO - Executing keyword LoginToApplication
+2020-08-25 16:36:39,919 DEBUG - Checking in com.qualitestgroup.keywords.browser.Browser
+2020-08-25 16:36:39,940 DEBUG - Checking in com.qualitestgroup.keywords.common.Browser
+2020-08-25 16:36:40,263 DEBUG - Args: {Browser=Chrome}
+2020-08-25 16:36:40,267  INFO - Initializing keyword Launch
+2020-08-25 16:36:40,302  INFO - Executing keyword Launch
+2020-08-25 16:36:59,970  INFO - Cleaning up keyword Launch
+2020-08-25 16:36:59,971  INFO - Keyword Launch complete.
+2020-08-25 16:37:43,865  INFO - Cleaning up keyword LoginToApplication
+2020-08-25 16:37:47,495  INFO - Keyword LoginToApplication complete.
+2020-08-25 16:38:49,062 DEBUG - Arguments: {Username=siva_surya_prasand.arivalagan@genesys.com.qa, URL=https://genesys--qa.my.salesforce.com/, Browser=Chrome, Password=S@lesforce2}
+2020-08-25 16:38:56,950 DEBUG - <a href="screenshots/shot_2020-8-25_16h38m54s612ms.jpg">Screen Shot</a>
+2020-08-25 16:39:33,767 DEBUG - Args: {RecordType=Consultant Record Type}
+2020-08-25 16:39:33,775  INFO - Initializing keyword SelectAccountRecordType
+2020-08-25 16:41:20,663  INFO - Executing keyword SelectAccountRecordType
+2020-08-25 16:41:44,159  INFO - Cleaning up keyword SelectAccountRecordType
+2020-08-25 16:41:47,957  INFO - Keyword SelectAccountRecordType complete.
+2020-08-25 16:42:04,184 DEBUG - Arguments: {RecordType=Consultant Record Type}
+2020-08-25 16:42:08,210 DEBUG - <a href="screenshots/shot_2020-8-25_16h42m5s518ms.jpg">Screen Shot</a>
+2020-08-25 16:42:48,963 DEBUG - Args: {RecordType=Consultant Record Type, AccountName=Auto_Acct001}
+2020-08-25 16:42:48,978  INFO - Initializing keyword AccountSearchByName
+2020-08-25 16:44:09,800  INFO - Executing keyword AccountSearchByName
+2020-08-25 16:47:58,196  INFO - Cleaning up keyword AccountSearchByName
+2020-08-25 16:48:02,190  INFO - Keyword AccountSearchByName complete.
+2020-08-25 16:48:13,309 DEBUG - Arguments: {RecordType=Consultant Record Type, AccountName=Auto_Acct001}
+2020-08-25 16:48:18,945 DEBUG - <a href="screenshots/shot_2020-8-25_16h48m14s759ms.jpg">Screen Shot</a>
+2020-08-25 16:48:43,794 DEBUG - Args: {}
+2020-08-25 16:48:43,808  INFO - Initializing keyword CancelAccountCreation
+2020-08-25 16:48:43,822  INFO - Executing keyword CancelAccountCreation
+2020-08-25 16:52:16,080  INFO - Cleaning up keyword CancelAccountCreation
+2020-08-25 16:52:17,477  INFO - Keyword CancelAccountCreation complete.
+2020-08-25 16:52:30,966 DEBUG - Arguments: {}
+2020-08-25 16:52:36,271 DEBUG - <a href="screenshots/shot_2020-8-25_16h52m32s965ms.jpg">Screen Shot</a>
+2020-08-25 16:52:42,673 DEBUG - Args: {}
+2020-08-25 16:52:42,687  INFO - Initializing keyword LogoutOfApplication
+2020-08-25 16:52:42,699  INFO - Executing keyword LogoutOfApplication
